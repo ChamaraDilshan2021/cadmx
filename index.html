@@ -61,7 +61,7 @@
         /* Split Screen Container */
         .split-view {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 3fr 7fr; /* MODIFIED: Quiz 30%, PDF 70% */
             height: 100vh;
             overflow: hidden;
         }
@@ -109,9 +109,10 @@
 
         .pdf-container {
             flex-grow: 1;
-            overflow: auto;
+            overflow: hidden; /* MODIFIED: No scrolling inside the PDF panel itself */
             display: flex;
-            justify-content: center;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* MODIFIED: Center vertically */
             padding: 20px;
         }
 
@@ -321,11 +322,11 @@
     const GOOGLE_SHEET_WEBAPP_URL = "YOUR_WEB_APP_URL_HERE"; 
 
     // --- Dataset Structure with Page Mapping ---
-    // Update 'pdfUrl' to the raw URL of your hosted PDF on GitHub.
+    // Update 'pdfUrl' to the relative filename in your repo.
     const chapterData = {
         1: {
             title: "Computer Architecture and LMC",
-            pdfUrl: "CSCI_12532_Lecture_01.pdf", // <-- IMPORTANT: Replace with your actual GitHub Pages PDF URL
+            pdfUrl: "CSCI_12532_Lecture_01.pdf", // <-- Update this if the file is in a folder (e.g., 'pdfs/file.pdf')
             questions: [
                 { page: 5, question: "What does Computer Architecture specify according to the restaurant analogy used in the lecture?", options: ["The layout and equipment", "The structure, operations, and how components interact", "The physical hardware costs", "The network connectivity"], answer: "The structure, operations, and how components interact" },
                 { page: 5, question: "In the restaurant analogy, what do the implementation details such as the layout of the kitchen and the staff hierarchy represent?", options: ["The Architecture", "The Microarchitecture", "The Organization", "The Instruction Set"], answer: "The Organization" },
@@ -429,12 +430,29 @@
         }
     }
 
-    function renderPdfPage(num) {
+    // MODIFIED: Function to render page scaled precisely to fit the 70% fixed panel
+    async function renderPdfPage(num) {
         if (!pdfDoc) return;
         isPdfRendering = true;
         
-        pdfDoc.getPage(num).then(function(page) {
-            const viewport = page.getViewport({ scale: 1.2 }); // Scale for readability
+        try {
+            const page = await pdfDoc.getPage(num);
+            const container = document.querySelector('.pdf-container');
+            if (!container) throw new Error("PDF container not found.");
+
+            // Get available dimensions
+            const containerWidth = container.clientWidth;
+            const containerHeight = container.clientHeight;
+
+            // Get unscaled viewport to determine base aspect ratio
+            const unscaledViewport = page.getViewport({ scale: 1 });
+
+            // Calculate scale to fit page entirely within container with a small margin
+            const scaleWidth = containerWidth / unscaledViewport.width;
+            const scaleHeight = containerHeight / unscaledViewport.height;
+            const scale = Math.min(scaleWidth, scaleHeight) * 0.95; // Use smaller scale, add margin
+            
+            const viewport = page.getViewport({ scale: scale });
             canvas.height = viewport.height;
             canvas.width = viewport.width;
 
@@ -443,19 +461,25 @@
                 viewport: viewport
             };
             
-            const renderTask = page.render(renderContext);
+            // Wait for rendering to complete
+            await page.render(renderContext).promise;
 
-            renderTask.promise.then(function() {
-                isPdfRendering = false;
-                document.getElementById('page-num').innerText = num;
-                currentPdfPage = num;
-                
-                if (pdfRenderQueue !== null) {
-                    renderPdfPage(pdfRenderQueue);
-                    pdfRenderQueue = null;
-                }
-            });
-        });
+            isPdfRendering = false;
+            document.getElementById('page-num').innerText = num;
+            currentPdfPage = num;
+            
+            // Check if another page was queued
+            if (pdfRenderQueue !== null) {
+                renderPdfPage(pdfRenderQueue);
+                pdfRenderQueue = null;
+            }
+        } catch (error) {
+            console.error('Error rendering PDF page: ', error);
+            isPdfRendering = false;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.font = "16px Inter";
+            ctx.fillText(`Failed to render page ${num}.`, 20, 50);
+        }
     }
 
     function queueRenderPage(num) {
@@ -486,12 +510,12 @@
         document.getElementById('quiz-title').innerText = `Module ${chapterNum}: ${chapter.title}`;
         document.getElementById('total-q-num').innerText = chapter.questions.length;
         
-        // Load the PDF for this module
+        switchSection('quiz-section');
+
+        // MODIFIED: Chain the loadQuestion and loadPDF to avoid timing issues
         loadPDFDocument(chapter.pdfUrl).then(() => {
             loadQuestion();
         });
-
-        switchSection('quiz-section');
     }
 
     function loadQuestion() {
@@ -645,6 +669,13 @@
             if (setupSection && !setupSection.classList.contains('hidden') && document.activeElement.id === 'student-name') {
                 event.preventDefault(); startApp();
             }
+        }
+    });
+
+    // Handle window resize for PDF scaling
+    window.addEventListener('resize', () => {
+        if (!document.getElementById('quiz-section').classList.contains('hidden') && pdfDoc) {
+            queueRenderPage(currentPdfPage);
         }
     });
 </script>
