@@ -7377,9 +7377,9 @@
   title: "Specialized Architectures, Control Units, RISC & Parallel Computing",
   pdfUrl: "CSCI_12532_Lecture_07.pdf",
   questions: [
-    // PAGE 1 - Introduction to Specialized Architectures
+    // PAGE 3 - Introduction to Specialized Architectures
     {
-      page: 1,
+      page: 3,
       question: "Why do specialized architectures address the demands of rapid technological advancement?",
       options: [
         "a) Because they are cheaper to manufacture than general-purpose CPUs",
@@ -7390,7 +7390,7 @@
       answer: "b) Because traditional general-purpose CPUs cannot handle all workloads efficiently"
     },
     {
-      page: 1,
+      page: 3,
       question: "As Moore's Law slows down, why is it no longer efficient to build general-purpose CPUs that handle all workloads perfectly?",
       options: [
         "a) Transistors have become too cheap to matter",
@@ -7401,7 +7401,7 @@
       answer: "c) Traditional scaling can no longer deliver proportional performance gains for every workload"
     },
     {
-      page: 1,
+      page: 3,
       question: "What bottleneck do specialized architectures bypass by placing logic and targeted memory closer together?",
       options: [
         "a) The Amdahl bottleneck",
@@ -7412,7 +7412,7 @@
       answer: "b) The Von Neumann bottleneck"
     },
     {
-      page: 1,
+      page: 4,
       question: "What is a specialized CPU architecture?",
       options: [
         "a) A processor designed to run every kind of workload equally well",
@@ -7423,7 +7423,7 @@
       answer: "b) A tailored processor designed for specific workloads using dedicated hardware accelerators or non-traditional ISAs"
     },
     {
-      page: 1,
+      page: 4,
       question: "Which of the following are targeted tasks mentioned for specialized architectures?",
       options: [
         "a) Word processing, spreadsheets, and email",
@@ -7434,9 +7434,9 @@
       answer: "b) Artificial intelligence, edge computing, and signal processing"
     },
 
-    // PAGE 2 - Moore's Law
+    // PAGE 5 - Moore's Law
     {
-      page: 2,
+      page: 5,
       question: "Who originally made the observation known as Moore's Law, and in what year?",
       options: [
         "a) Alan Turing in 1950",
@@ -7447,7 +7447,7 @@
       answer: "b) Gordon E. Moore in 1965"
     },
     {
-      page: 2,
+      page: 5,
       question: "According to Moore's Law, approximately how often does the number of transistors on a microchip double?",
       options: [
         "a) Every year",
@@ -7458,7 +7458,7 @@
       answer: "b) Every two years"
     },
     {
-      page: 2,
+      page: 5,
       question: "What does Moore's Law imply about computers and computing power over time?",
       options: [
         "a) They become smaller, faster, and cheaper as processes become more efficient",
@@ -7469,7 +7469,7 @@
       answer: "a) They become smaller, faster, and cheaper as processes become more efficient"
     },
     {
-      page: 2,
+      page: 5,
       question: "Why do some believe Moore's Law will end sometime in the 2020s?",
       options: [
         "a) Because manufacturers have stopped producing transistors",
@@ -7480,7 +7480,7 @@
       answer: "b) Because physical limits will be reached as transistors shrink toward the size of atoms"
     },
     {
-      page: 2,
+      page: 5,
       question: "According to the lecture, how much space is left to print transistor features on, depending on the element?",
       options: [
         "a) 1.5nm",
@@ -7491,9 +7491,9 @@
       answer: "a) 1.5nm"
     },
 
-    // PAGE 3 - Why Moore's Law Does Not Apply to AI (Point 1: Parallel cores)
+    // PAGE 6 - Why Moore's Law Does Not Apply to AI (Points 1 & 2)
     {
-      page: 3,
+      page: 6,
       question: "Why is Moore's Law considered not directly applicable to AI chip performance gains (Reason 1)?",
       options: [
         "a) AI chips use only a single core operating at very high frequency",
@@ -7504,7 +7504,7 @@
       answer: "b) Modern AI chips feature thousands of cores working simultaneously, enabling massive parallelization of matrix computations"
     },
     {
-      page: 3,
+      page: 6,
       question: "What does massive parallelization in AI chips allow neural networks to do?",
       options: [
         "a) Process millions of parameters in parallel rather than sequentially",
@@ -7515,7 +7515,7 @@
       answer: "a) Process millions of parameters in parallel rather than sequentially"
     },
     {
-      page: 3,
+      page: 6,
       question: "How do speed improvements scale in AI chips with thousands of parallel cores?",
       options: [
         "a) They decrease as more cores are added",
@@ -7525,10 +7525,8 @@
       ],
       answer: "b) They scale with the number of cores"
     },
-
-    // PAGE 4 - Why Moore's Law Does Not Apply to AI (Point 2: Specialized architectures)
     {
-      page: 4,
+      page: 6,
       question: "Which specialized processors are mentioned as Reason 2 why Moore's Law does not apply to AI?",
       options: [
         "a) GPUs, TPUs, and Custom Accelerators",
@@ -7539,7 +7537,7 @@
       answer: "a) GPUs, TPUs, and Custom Accelerators"
     },
     {
-      page: 4,
+      page: 6,
       question: "What are TPUs specifically designed for?",
       options: [
         "a) Tensor operations in neural networks",
@@ -7550,7 +7548,7 @@
       answer: "a) Tensor operations in neural networks"
     },
     {
-      page: 4,
+      page: 6,
       question: "According to the lecture, what performance-per-watt improvement can custom ASICs like Nvidia's H100 achieve compared to general-purpose CPUs for AI tasks?",
       options: [
         "a) Up to 10x",
@@ -7561,7 +7559,7 @@
       answer: "c) Up to 1000x"
     },
     {
-      page: 4,
+      page: 6,
       question: "What do GPUs offer that makes them well-suited for AI workloads?",
       options: [
         "a) Thousands of cores for parallel processing",
@@ -7572,9 +7570,9 @@
       answer: "a) Thousands of cores for parallel processing"
     },
 
-    // PAGE 5 - Why Moore's Law Does Not Apply to AI (Point 3: Algorithmic innovations)
+    // PAGE 7 - Why Moore's Law Does Not Apply to AI (Point 3: Algorithmic innovations)
     {
-      page: 5,
+      page: 7,
       question: "What is Reason 3 why Moore's Law does not apply to AI, according to the lecture?",
       options: [
         "a) Algorithmic innovations like transformer architecture, mixture-of-experts, and quantization have enabled efficiency gains independent of hardware",
@@ -7585,7 +7583,7 @@
       answer: "a) Algorithmic innovations like transformer architecture, mixture-of-experts, and quantization have enabled efficiency gains independent of hardware"
     },
     {
-      page: 5,
+      page: 7,
       question: "What systems improvements have reduced computational requirements for state-of-the-art AI models?",
       options: [
         "a) Distributed training, memory management, and optimization techniques",
@@ -7596,7 +7594,7 @@
       answer: "a) Distributed training, memory management, and optimization techniques"
     },
     {
-      page: 5,
+      page: 7,
       question: "By how much have systems and algorithmic improvements reduced computational requirements compared to naive implementations?",
       options: [
         "a) By a small, negligible amount",
@@ -7607,9 +7605,9 @@
       answer: "b) By orders of magnitude"
     },
 
-    // PAGE 6 - Control Unit Introduction
+    // PAGE 8 - Control Unit Introduction
     {
-      page: 6,
+      page: 8,
       question: "What is the primary role of the control unit in a CPU?",
       options: [
         "a) Storing large amounts of data permanently",
@@ -7620,7 +7618,7 @@
       answer: "b) Coordinating and directing the execution of instructions"
     },
     {
-      page: 6,
+      page: 8,
       question: "Besides interpreting and decoding instructions, what else does the control unit do?",
       options: [
         "a) Controls the flow of data between CPU parts and manages overall processor operation",
@@ -7631,7 +7629,7 @@
       answer: "a) Controls the flow of data between CPU parts and manages overall processor operation"
     },
     {
-      page: 6,
+      page: 8,
       question: "Why is the control unit often described as the 'brain of the CPU'?",
       options: [
         "a) Because it stores the most data",
@@ -7642,7 +7640,7 @@
       answer: "b) Because it controls and manages the execution of instructions, determines operation sequence, and coordinates components"
     },
     {
-      page: 6,
+      page: 8,
       question: "What would happen to a CPU without a control unit?",
       options: [
         "a) It would run faster",
@@ -7653,9 +7651,9 @@
       answer: "b) It would be unable to execute instructions or perform any meaningful tasks"
     },
 
-    // PAGE 7 - Hardwired Control Unit description
+    // PAGE 9 - Hardwired Control Unit description
     {
-      page: 7,
+      page: 9,
       question: "What does the hardwired control unit consist of?",
       options: [
         "a) A combinational circuit that outputs desired controls for decoding and encoding functions",
@@ -7666,7 +7664,7 @@
       answer: "a) A combinational circuit that outputs desired controls for decoding and encoding functions"
     },
     {
-      page: 7,
+      page: 9,
       question: "In hardwired control, what decodes the instruction loaded in the Instruction Register (IR)?",
       options: [
         "a) The control memory",
@@ -7677,7 +7675,7 @@
       answer: "b) The instruction decoder"
     },
     {
-      page: 7,
+      page: 9,
       question: "If the IR is an 8-bit register, how many lines does the instruction decoder generate?",
       options: [
         "a) 8 lines",
@@ -7688,7 +7686,7 @@
       answer: "c) 256 lines (2^8)"
     },
     {
-      page: 7,
+      page: 9,
       question: "What is the major goal of implementing hardwired control?",
       options: [
         "a) To maximize memory usage",
@@ -7698,41 +7696,10 @@
       ],
       answer: "b) To minimize the cost of the circuit and achieve greater operation speed efficiency"
     },
+
+    // PAGE 10 - Hardwired control unit block diagram
     {
-      page: 7,
-      question: "What three main components make up a hardwired control unit?",
-      options: [
-        "a) Two decoders, a sequence counter, and logic gates",
-        "b) A control memory, a next-address generator, and a data register",
-        "c) An ALU, cache, and main memory",
-        "d) A compiler, linker, and loader"
-      ],
-      answer: "a) Two decoders, a sequence counter, and logic gates"
-    },
-    {
-      page: 7,
-      question: "In the hardwired control unit design, what does a 3 x 8 decoder do?",
-      options: [
-        "a) Encodes the operation code in bits 12 through 14, producing outputs D0 through D7",
-        "b) Stores the entire microprogram",
-        "c) Counts from 0 to 15 in binary",
-        "d) Reads data directly from main memory"
-      ],
-      answer: "a) Encodes the operation code in bits 12 through 14, producing outputs D0 through D7"
-    },
-    {
-      page: 7,
-      question: "What is the role of the sequence counter (SC) in a hardwired control unit?",
-      options: [
-        "a) It counts from 0 to 15 in binary",
-        "b) It stores the operation code permanently",
-        "c) It generates control words from ROM",
-        "d) It performs arithmetic operations"
-      ],
-      answer: "a) It counts from 0 to 15 in binary"
-    },
-    {
-      page: 7,
+      page: 10,
       question: "In the hardwired control unit block diagram, which of the following provides inputs to the control unit (combinational circuit)?",
       options: [
         "a) Only the system bus",
@@ -7743,7 +7710,7 @@
       answer: "b) Clock, system bus (interrupts), and status/flag register"
     },
     {
-      page: 7,
+      page: 10,
       question: "Where do the control signals generated by the hardwired control unit go?",
       options: [
         "a) To the register, the bus, and the ALU",
@@ -7754,9 +7721,44 @@
       answer: "a) To the register, the bus, and the ALU"
     },
 
-    // PAGE 8 - Benefits of Hardwired Control Unit
+    // PAGE 11 - Hardwired control unit components
     {
-      page: 8,
+      page: 11,
+      question: "What three main components make up a hardwired control unit?",
+      options: [
+        "a) Two decoders, a sequence counter, and logic gates",
+        "b) A control memory, a next-address generator, and a data register",
+        "c) An ALU, cache, and main memory",
+        "d) A compiler, linker, and loader"
+      ],
+      answer: "a) Two decoders, a sequence counter, and logic gates"
+    },
+    {
+      page: 11,
+      question: "In the hardwired control unit design, what does a 3 x 8 decoder do?",
+      options: [
+        "a) Encodes the operation code in bits 12 through 14, producing outputs D0 through D7",
+        "b) Stores the entire microprogram",
+        "c) Counts from 0 to 15 in binary",
+        "d) Reads data directly from main memory"
+      ],
+      answer: "a) Encodes the operation code in bits 12 through 14, producing outputs D0 through D7"
+    },
+    {
+      page: 11,
+      question: "What is the role of the sequence counter (SC) in a hardwired control unit?",
+      options: [
+        "a) It counts from 0 to 15 in binary",
+        "b) It stores the operation code permanently",
+        "c) It generates control words from ROM",
+        "d) It performs arithmetic operations"
+      ],
+      answer: "a) It counts from 0 to 15 in binary"
+    },
+
+    // PAGE 12 - Benefits of Hardwired Control Unit
+    {
+      page: 12,
       question: "Why is the hardwired control unit generally fast?",
       options: [
         "a) Because it uses combinational circuits to generate signals",
@@ -7767,7 +7769,7 @@
       answer: "a) Because it uses combinational circuits to generate signals"
     },
     {
-      page: 8,
+      page: 12,
       question: "What factor determines how much delay occurs in generating control signals in a hardwired control unit?",
       options: [
         "a) The number of gates used",
@@ -7778,7 +7780,7 @@
       answer: "a) The number of gates used"
     },
     {
-      page: 8,
+      page: 12,
       question: "Compared to microprogrammed control units, hardwired control units are generally:",
       options: [
         "a) Slower",
@@ -7789,7 +7791,7 @@
       answer: "b) Faster"
     },
     {
-      page: 8,
+      page: 12,
       question: "Does a hardwired control unit require control memory?",
       options: [
         "a) Yes, it requires large amounts of control memory",
@@ -7800,9 +7802,9 @@
       answer: "b) No, it does not require control memory"
     },
 
-    // PAGE 9 - Limitations of Hardwired Control Unit
+    // PAGE 13 - Limitations of Hardwired Control Unit
     {
-      page: 9,
+      page: 13,
       question: "Why does the complexity of a hardwired control unit's design increase?",
       options: [
         "a) As more control signals are required, needing more encoders and decoders",
@@ -7813,7 +7815,7 @@
       answer: "a) As more control signals are required, needing more encoders and decoders"
     },
     {
-      page: 9,
+      page: 13,
       question: "Why are modifications to control signals difficult in a hardwired control unit?",
       options: [
         "a) Because it requires rearranging wires in the hardware circuit",
@@ -7824,7 +7826,7 @@
       answer: "a) Because it requires rearranging wires in the hardware circuit"
     },
     {
-      page: 9,
+      page: 13,
       question: "Which of the following is NOT a limitation of hardwired control units?",
       options: [
         "a) Difficult to test and correct mistakes",
@@ -7835,7 +7837,7 @@
       answer: "d) It requires large amounts of control memory"
     },
     {
-      page: 9,
+      page: 13,
       question: "Overall, how would you summarize the trade-off of hardwired control units based on their limitations?",
       options: [
         "a) They are fast but rigid and costly to modify",
@@ -7846,9 +7848,9 @@
       answer: "a) They are fast but rigid and costly to modify"
     },
 
-    // PAGE 10 - Microprogrammed Control Unit description
+    // PAGE 14 - Microprogrammed Control Unit description
     {
-      page: 10,
+      page: 14,
       question: "What is a microprogrammed control unit?",
       options: [
         "a) A control unit whose binary control values are saved as words in memory",
@@ -7859,7 +7861,7 @@
       answer: "a) A control unit whose binary control values are saved as words in memory"
     },
     {
-      page: 10,
+      page: 14,
       question: "How are instructions implemented by a microprogrammed controller?",
       options: [
         "a) By constructing a definite collection of signals at each system clock beat",
@@ -7870,7 +7872,7 @@
       answer: "a) By constructing a definite collection of signals at each system clock beat"
     },
     {
-      page: 10,
+      page: 14,
       question: "What does each output signal generated by the controller correspond to?",
       options: [
         "a) One micro-operation, including register transfer",
@@ -7881,7 +7883,7 @@
       answer: "a) One micro-operation, including register transfer"
     },
     {
-      page: 10,
+      page: 14,
       question: "How is each bit in a microinstruction linked to a control signal?",
       options: [
         "a) When the bit is set, the control signal is active; when cleared, it is inactive",
@@ -7892,7 +7894,7 @@
       answer: "a) When the bit is set, the control signal is active; when cleared, it is inactive"
     },
     {
-      page: 10,
+      page: 14,
       question: "Why is the control unit of a microprogram-controlled computer sometimes described as 'a computer inside a computer'?",
       options: [
         "a) Because it has its own sequence of stored microinstructions that it executes to control operations",
@@ -7903,9 +7905,9 @@
       answer: "a) Because it has its own sequence of stored microinstructions that it executes to control operations"
     },
 
-    // PAGE 11 - Control memory address register / microinstruction / next address
+    // PAGE 15 - Control memory address register / microinstruction / next address
     {
-      page: 11,
+      page: 15,
       question: "What does the control memory address register specify?",
       options: [
         "a) The address of the microinstruction",
@@ -7916,7 +7918,7 @@
       answer: "a) The address of the microinstruction"
     },
     {
-      page: 11,
+      page: 15,
       question: "What does the control data register hold?",
       options: [
         "a) The microinstruction read from memory",
@@ -7927,7 +7929,7 @@
       answer: "a) The microinstruction read from memory"
     },
     {
-      page: 11,
+      page: 15,
       question: "What does the control word within a microinstruction specify?",
       options: [
         "a) One or more microoperations for the data processor",
@@ -7938,7 +7940,7 @@
       answer: "a) One or more microoperations for the data processor"
     },
     {
-      page: 11,
+      page: 15,
       question: "Where can the next microinstruction to be executed be located?",
       options: [
         "a) Only at address zero",
@@ -7949,7 +7951,7 @@
       answer: "b) The one next in sequence, or somewhere else in control memory"
     },
     {
-      page: 11,
+      page: 15,
       question: "What generates the address of the microinstruction to be executed next?",
       options: [
         "a) The Next-Address Generator (Sequencer)",
@@ -7960,7 +7962,7 @@
       answer: "a) The Next-Address Generator (Sequencer)"
     },
     {
-      page: 11,
+      page: 16,
       question: "In the CPU's execution of an instruction using microprogramming, what are the sequential micro-operations that the instruction is divided into called?",
       options: [
         "a) Macro-operations",
@@ -7971,9 +7973,9 @@
       answer: "b) Microinstructions"
     },
 
-    // PAGE 12 - Advantages of Microprogrammed Control Unit
+    // PAGE 17 - Advantages of Microprogrammed Control Unit
     {
-      page: 12,
+      page: 17,
       question: "Which of the following is an advantage of a microprogrammed control unit?",
       options: [
         "a) It allows a more systematic design of the control unit and is simpler to debug and change",
@@ -7984,7 +7986,7 @@
       answer: "a) It allows a more systematic design of the control unit and is simpler to debug and change"
     },
     {
-      page: 12,
+      page: 17,
       question: "Why is a microprogrammed control unit considered inexpensive and less error-prone?",
       options: [
         "a) Because it simplifies the design of the control unit through an orderly, systematic process",
@@ -7995,7 +7997,7 @@
       answer: "a) Because it simplifies the design of the control unit through an orderly, systematic process"
     },
     {
-      page: 12,
+      page: 17,
       question: "How does a microprogrammed control unit implement control functions?",
       options: [
         "a) In software rather than hardware",
@@ -8006,7 +8008,7 @@
       answer: "a) In software rather than hardware"
     },
     {
-      page: 12,
+      page: 17,
       question: "Which of the following best describes the flexibility advantage of microprogrammed control units?",
       options: [
         "a) It is more flexible and can carry out complex functions easily",
@@ -8017,9 +8019,9 @@
       answer: "a) It is more flexible and can carry out complex functions easily"
     },
 
-    // PAGE 13 - Disadvantages of Microprogrammed Control Unit
+    // PAGE 18 - Disadvantages of Microprogrammed Control Unit
     {
-      page: 13,
+      page: 18,
       question: "Why are microprogrammed control units generally slower than hardwired control units?",
       options: [
         "a) Because each instruction requires multiple microinstructions to execute",
@@ -8030,7 +8032,7 @@
       answer: "a) Because each instruction requires multiple microinstructions to execute"
     },
     {
-      page: 13,
+      page: 18,
       question: "What is the 'Memory Overhead' disadvantage of microprogrammed control units?",
       options: [
         "a) They require additional memory to store the microprogram, increasing cost and complexity",
@@ -8041,7 +8043,7 @@
       answer: "a) They require additional memory to store the microprogram, increasing cost and complexity"
     },
     {
-      page: 13,
+      page: 18,
       question: "Why can microprogrammed control units be less efficient for simple instructions?",
       options: [
         "a) The overhead of microprogramming may reduce efficiency compared to hardwired control",
@@ -8052,7 +8054,7 @@
       answer: "a) The overhead of microprogramming may reduce efficiency compared to hardwired control"
     },
     {
-      page: 13,
+      page: 18,
       question: "What additional execution-time cost is introduced because each microinstruction must be fetched from control memory?",
       options: [
         "a) Additional fetch cycles, adding to execution time",
@@ -8063,9 +8065,9 @@
       answer: "a) Additional fetch cycles, adding to execution time"
     },
 
-    // PAGE 14 - Comparison table Hardwired vs Microprogrammed
+    // PAGE 19 - Comparison table Hardwired vs Microprogrammed
     {
-      page: 14,
+      page: 19,
       question: "In the comparison table, what technology basis is used for Hardwired Control versus Microprogrammed Control?",
       options: [
         "a) Hardwired is circuit based; Microprogrammed is software based",
@@ -8076,7 +8078,7 @@
       answer: "a) Hardwired is circuit based; Microprogrammed is software based"
     },
     {
-      page: 14,
+      page: 19,
       question: "How is Hardwired Control implemented according to the comparison table?",
       options: [
         "a) Through flip-flops, gates, decoders, etc.",
@@ -8087,7 +8089,7 @@
       answer: "a) Through flip-flops, gates, decoders, etc."
     },
     {
-      page: 14,
+      page: 19,
       question: "What instruction format size is associated with Microprogrammed Control in the comparison table?",
       options: [
         "a) Fixed 8-bit format",
@@ -8098,7 +8100,7 @@
       answer: "b) Variable instruction format (16-64 bits per instruction)"
     },
     {
-      page: 14,
+      page: 19,
       question: "According to the comparison table, are instructions in Hardwired Control register based?",
       options: [
         "a) Yes, instructions are register based",
@@ -8109,7 +8111,7 @@
       answer: "a) Yes, instructions are register based"
     },
     {
-      page: 14,
+      page: 19,
       question: "Does Hardwired Control use ROM according to the comparison table?",
       options: [
         "a) Yes, ROM is essential",
@@ -8120,7 +8122,7 @@
       answer: "b) ROM is not used in Hardwired Control; it is used in Microprogrammed Control"
     },
     {
-      page: 14,
+      page: 19,
       question: "According to the comparison table, which control type is used in RISC and which is used in CISC?",
       options: [
         "a) Hardwired is used in RISC; Microprogrammed is used in CISC",
@@ -8131,7 +8133,7 @@
       answer: "a) Hardwired is used in RISC; Microprogrammed is used in CISC"
     },
     {
-      page: 14,
+      page: 19,
       question: "Which control unit type has faster decoding, and which has slower decoding, per the comparison table?",
       options: [
         "a) Hardwired has faster decoding; Microprogrammed has slower decoding",
@@ -8142,7 +8144,7 @@
       answer: "a) Hardwired has faster decoding; Microprogrammed has slower decoding"
     },
     {
-      page: 14,
+      page: 19,
       question: "According to the comparison table, which is easier to modify and which uses less chip area?",
       options: [
         "a) Microprogrammed is easily modified; Hardwired uses less chip area",
@@ -8153,9 +8155,9 @@
       answer: "a) Microprogrammed is easily modified; Hardwired uses less chip area"
     },
 
-    // PAGE 15 - RISC Machine Components (overview list)
+    // PAGE 20 - RISC Machine Components (overview list)
     {
-      page: 15,
+      page: 20,
       question: "What are the main components of a RISC machine listed in the lecture?",
       options: [
         "a) Hardwired Control Unit, Instruction Cache, Data Cache, Data Path, Main Memory",
@@ -8166,7 +8168,7 @@
       answer: "a) Hardwired Control Unit, Instruction Cache, Data Cache, Data Path, Main Memory"
     },
     {
-      page: 15,
+      page: 20,
       question: "According to the RISC machine components diagram, what does the Hardwired Control Unit directly interact with?",
       options: [
         "a) Data Path and Instruction Cache",
@@ -8177,7 +8179,7 @@
       answer: "a) Data Path and Instruction Cache"
     },
     {
-      page: 15,
+      page: 20,
       question: "In the RISC architecture diagram, what sits below both the Instruction Cache and Data Cache?",
       options: [
         "a) Main Memory",
@@ -8188,9 +8190,9 @@
       answer: "a) Main Memory"
     },
 
-    // PAGE 16 - RISC components detail (Hardwired Control Unit / Data Path)
+    // PAGE 21 - RISC components detail (Hardwired Control Unit / Data Path)
     {
-      page: 16,
+      page: 21,
       question: "What is the function of the Hardwired Control Unit within a RISC machine?",
       options: [
         "a) Coordinates CPU operations using combinational logic circuits to generate control signals",
@@ -8201,7 +8203,7 @@
       answer: "a) Coordinates CPU operations using combinational logic circuits to generate control signals"
     },
     {
-      page: 16,
+      page: 21,
       question: "What does the Data Path in a RISC machine perform?",
       options: [
         "a) Arithmetic and logical operations, including the ALU and temporary storage registers",
@@ -8212,7 +8214,7 @@
       answer: "a) Arithmetic and logical operations, including the ALU and temporary storage registers"
     },
     {
-      page: 16,
+      page: 21,
       question: "Which component of the Data Path performs calculations?",
       options: [
         "a) The ALU (Arithmetic Logic Unit)",
@@ -8223,7 +8225,7 @@
       answer: "a) The ALU (Arithmetic Logic Unit)"
     },
     {
-      page: 16,
+      page: 21,
       question: "What role do registers play within the Data Path?",
       options: [
         "a) Temporary data storage",
@@ -8234,9 +8236,9 @@
       answer: "a) Temporary data storage"
     },
 
-    // PAGE 17 - Instruction Cache / Data Cache / Main Memory
+    // PAGE 22 - Instruction Cache / Data Cache / Main Memory
     {
-      page: 17,
+      page: 22,
       question: "What is the purpose of the Instruction Cache in a RISC machine?",
       options: [
         "a) Small, high-speed memory for frequently used instructions that reduces fetch time",
@@ -8247,7 +8249,7 @@
       answer: "a) Small, high-speed memory for frequently used instructions that reduces fetch time"
     },
     {
-      page: 17,
+      page: 22,
       question: "What is the purpose of the Data Cache?",
       options: [
         "a) High-speed memory for frequently accessed data, reducing data access time",
@@ -8258,7 +8260,7 @@
       answer: "a) High-speed memory for frequently accessed data, reducing data access time"
     },
     {
-      page: 17,
+      page: 22,
       question: "How does Main Memory compare to caches in terms of size and speed?",
       options: [
         "a) Larger in size but slower than caches",
@@ -8269,7 +8271,7 @@
       answer: "a) Larger in size but slower than caches"
     },
     {
-      page: 17,
+      page: 22,
       question: "What does Main Memory primarily store?",
       options: [
         "a) Both instructions and data",
@@ -8280,9 +8282,9 @@
       answer: "a) Both instructions and data"
     },
 
-    // PAGE 18 - RISC Instruction Set intro
+    // PAGE 23 - RISC Instruction Set intro
     {
-      page: 18,
+      page: 23,
       question: "How is the RISC instruction set designed?",
       options: [
         "a) To be simple and streamlined with a limited number of instructions",
@@ -8293,7 +8295,7 @@
       answer: "a) To be simple and streamlined with a limited number of instructions"
     },
     {
-      page: 18,
+      page: 23,
       question: "What kinds of operations does the RISC instruction set focus on?",
       options: [
         "a) Basic operations like arithmetic, logical, and data movement",
@@ -8304,7 +8306,7 @@
       answer: "a) Basic operations like arithmetic, logical, and data movement"
     },
     {
-      page: 18,
+      page: 23,
       question: "How many clock cycles does a typical RISC instruction take to execute?",
       options: [
         "a) A single clock cycle",
@@ -8315,9 +8317,9 @@
       answer: "a) A single clock cycle"
     },
 
-    // PAGE 19 - Characteristics of RISC Instruction Set
+    // PAGE 24 - Characteristics of RISC Instruction Set
     {
-      page: 19,
+      page: 24,
       question: "What does the 'simple and streamlined' characteristic of RISC mean?",
       options: [
         "a) It provides a small set of basic instructions that can be combined to perform complex tasks",
@@ -8328,7 +8330,7 @@
       answer: "a) It provides a small set of basic instructions that can be combined to perform complex tasks"
     },
     {
-      page: 19,
+      page: 24,
       question: "Which of the following are considered 'basic operations' prioritized by RISC?",
       options: [
         "a) Addition, comparison, data movement, and logical functions",
@@ -8339,7 +8341,7 @@
       answer: "a) Addition, comparison, data movement, and logical functions"
     },
     {
-      page: 19,
+      page: 24,
       question: "What does 'single clock cycle execution' ensure in RISC design?",
       options: [
         "a) Fast and efficient execution since each instruction completes within one clock cycle",
@@ -8350,9 +8352,9 @@
       answer: "a) Fast and efficient execution since each instruction completes within one clock cycle"
     },
 
-    // PAGE 20 - Arithmetic Operations table
+    // PAGE 25 - Arithmetic Operations table
     {
-      page: 20,
+      page: 25,
       question: "In the RISC arithmetic operations table, what does the ADD instruction (rd, rs1, rs2) do?",
       options: [
         "a) rd ← rs1 + rs2",
@@ -8363,7 +8365,7 @@
       answer: "a) rd ← rs1 + rs2"
     },
     {
-      page: 20,
+      page: 25,
       question: "What does the SLT (Set Less Than) instruction do in the RISC arithmetic table?",
       options: [
         "a) rd ← rs1 < rs2 ? 1 : 0",
@@ -8374,7 +8376,7 @@
       answer: "a) rd ← rs1 < rs2 ? 1 : 0"
     },
     {
-      page: 20,
+      page: 25,
       question: "What type of instruction is ADDI (Add immediate) classified as?",
       options: [
         "a) I-type",
@@ -8385,7 +8387,7 @@
       answer: "a) I-type"
     },
     {
-      page: 20,
+      page: 25,
       question: "What does the LUI (Load Upper Immediate) instruction do?",
       options: [
         "a) rd ← imm20 << 12",
@@ -8396,9 +8398,9 @@
       answer: "a) rd ← imm20 << 12"
     },
 
-    // PAGE 21 - Logical Operations table
+    // PAGE 26 - Logical Operations table
     {
-      page: 21,
+      page: 26,
       question: "What operation does the AND instruction (rd, rs1, rs2) perform?",
       options: [
         "a) rd ← rs1 & rs2",
@@ -8409,7 +8411,7 @@
       answer: "a) rd ← rs1 & rs2"
     },
     {
-      page: 21,
+      page: 26,
       question: "What does the XOR instruction compute?",
       options: [
         "a) rd ← rs1 ^ rs2",
@@ -8420,7 +8422,7 @@
       answer: "a) rd ← rs1 ^ rs2"
     },
     {
-      page: 21,
+      page: 26,
       question: "What is the difference between SRL and SRA in the logical operations table?",
       options: [
         "a) SRL is shift right logical; SRA is shift right arithmetic",
@@ -8431,7 +8433,7 @@
       answer: "a) SRL is shift right logical; SRA is shift right arithmetic"
     },
     {
-      page: 21,
+      page: 26,
       question: "What does the SLLI instruction (Shift left logical immediate) do?",
       options: [
         "a) rd ← rs1 << shamt",
@@ -8442,9 +8444,9 @@
       answer: "a) rd ← rs1 << shamt"
     },
 
-    // PAGE 22 - Load/Store Operations table
+    // PAGE 27 - Load/Store Operations table
     {
-      page: 22,
+      page: 27,
       question: "What does the LW (Load word) instruction do?",
       options: [
         "a) rd ← mem[rs1 + imm12]",
@@ -8455,7 +8457,7 @@
       answer: "a) rd ← mem[rs1 + imm12]"
     },
     {
-      page: 22,
+      page: 27,
       question: "What is the difference between LW and LWU in the load/store table?",
       options: [
         "a) LWU loads a word as unsigned, while LW does not specify unsigned handling",
@@ -8466,7 +8468,7 @@
       answer: "a) LWU loads a word as unsigned, while LW does not specify unsigned handling"
     },
     {
-      page: 22,
+      page: 27,
       question: "What does the SW (Store word) instruction do?",
       options: [
         "a) rs2(31:0) → mem[rs1 + imm12]",
@@ -8477,7 +8479,7 @@
       answer: "a) rs2(31:0) → mem[rs1 + imm12]"
     },
     {
-      page: 22,
+      page: 27,
       question: "Which instruction type classification applies to Store instructions like SD, SW, SH, and SB?",
       options: [
         "a) S-type",
@@ -8488,9 +8490,9 @@
       answer: "a) S-type"
     },
 
-    // PAGE 23 - 32-bit instruction format
+    // PAGE 28 - 32-bit instruction format
     {
-      page: 23,
+      page: 28,
       question: "In the 32-bit R-type instruction format, which fields are present?",
       options: [
         "a) func, rs2, rs1, func, rd, opcode",
@@ -8501,7 +8503,7 @@
       answer: "a) func, rs2, rs1, func, rd, opcode"
     },
     {
-      page: 23,
+      page: 28,
       question: "Which 32-bit instruction format type uses only 'immediate', 'rd', and 'opcode' fields (no rs1 or rs2)?",
       options: [
         "a) UJ-type",
@@ -8512,7 +8514,7 @@
       answer: "a) UJ-type"
     },
     {
-      page: 23,
+      page: 28,
       question: "Which instruction format contains both 'immediate' and 'rs2' fields alongside rs1, func, and immediate again split across the instruction, typically used for branch instructions?",
       options: [
         "a) SB-type",
@@ -8523,7 +8525,7 @@
       answer: "a) SB-type"
     },
     {
-      page: 23,
+      page: 28,
       question: "In the 32-bit instruction format, which field occupies bits 6 down to 0 in all instruction types?",
       options: [
         "a) opcode",
@@ -8534,9 +8536,9 @@
       answer: "a) opcode"
     },
 
-    // PAGE 24 - Simple Program in RISC
+    // PAGE 30 - Simple Program in RISC
     {
-      page: 24,
+      page: 30,
       question: "In the simple RISC assembly program example, what does the .data section declare?",
       options: [
         "a) num1, num2, and result variables with initial values",
@@ -8547,7 +8549,7 @@
       answer: "a) num1, num2, and result variables with initial values"
     },
     {
-      page: 24,
+      page: 30,
       question: "In the example program, what are the initial values of num1 and num2?",
       options: [
         "a) num1 = 5, num2 = 3",
@@ -8558,7 +8560,7 @@
       answer: "a) num1 = 5, num2 = 3"
     },
     {
-      page: 24,
+      page: 30,
       question: "What do the 'lw' instructions do at the start of the .text section in the example program?",
       options: [
         "a) Load num1 into register t0 and num2 into register t1",
@@ -8569,7 +8571,7 @@
       answer: "a) Load num1 into register t0 and num2 into register t1"
     },
     {
-      page: 24,
+      page: 30,
       question: "What does the 'add t2, t0, t1' instruction accomplish in the example program?",
       options: [
         "a) Adds t0 and t1, storing the result in register t2",
@@ -8580,7 +8582,7 @@
       answer: "a) Adds t0 and t1, storing the result in register t2"
     },
     {
-      page: 24,
+      page: 30,
       question: "How does the example RISC program terminate?",
       options: [
         "a) By loading the system call number into a7 with 'li' and then executing 'ecall'",
@@ -8591,9 +8593,9 @@
       answer: "a) By loading the system call number into a7 with 'li' and then executing 'ecall'"
     },
 
-    // PAGE 25 - Knowledge Check (Load-store architecture)
+    // PAGE 31 - Knowledge Check (Load-store architecture)
     {
-      page: 25,
+      page: 31,
       question: "Why is the load-store architecture used in a typical RISC processor?",
       options: [
         "a) To allow arithmetic operations directly on memory addresses",
@@ -8603,8 +8605,10 @@
       ],
       answer: "b) To simplify the instruction set by separating memory access from computation"
     },
+
+    // PAGE 32 - Knowledge Check Explained
     {
-      page: 25,
+      page: 32,
       question: "Why is option A ('allow arithmetic operations directly on memory addresses') incorrect for RISC's load-store rationale?",
       options: [
         "a) Because RISC forbids arithmetic operations directly on memory (unlike CISC); ALU operations work only on registers",
@@ -8615,9 +8619,9 @@
       answer: "a) Because RISC forbids arithmetic operations directly on memory (unlike CISC); ALU operations work only on registers"
     },
 
-    // PAGE 26 - Parallel Architectures intro
+    // PAGE 33 - Parallel Architectures intro
     {
-      page: 26,
+      page: 33,
       question: "What does parallel computing architecture involve?",
       options: [
         "a) The simultaneous execution of multiple computational tasks to enhance performance and efficiency",
@@ -8628,7 +8632,7 @@
       answer: "a) The simultaneous execution of multiple computational tasks to enhance performance and efficiency"
     },
     {
-      page: 26,
+      page: 33,
       question: "Which essential components make up parallel computing architecture?",
       options: [
         "a) Processors, memory hierarchy, interconnects, and software stack",
@@ -8639,7 +8643,7 @@
       answer: "a) Processors, memory hierarchy, interconnects, and software stack"
     },
     {
-      page: 26,
+      page: 33,
       question: "What do the components of parallel computing architecture work together to facilitate?",
       options: [
         "a) Efficient communication, data processing, and task coordination across multiple processing units",
@@ -8650,9 +8654,9 @@
       answer: "a) Efficient communication, data processing, and task coordination across multiple processing units"
     },
 
-    // PAGE 27 - Parallel Computing CPUs
+    // PAGE 34 - Parallel Computing CPUs
     {
-      page: 27,
+      page: 34,
       question: "What defines a multi-core CPU?",
       options: [
         "a) Multiple processing cores integrated onto a single chip, allowing parallel execution",
@@ -8663,7 +8667,7 @@
       answer: "a) Multiple processing cores integrated onto a single chip, allowing parallel execution"
     },
     {
-      page: 27,
+      page: 34,
       question: "What do multi-threaded CPUs support?",
       options: [
         "a) The simultaneous execution of multiple threads within each core",
@@ -8674,7 +8678,7 @@
       answer: "a) The simultaneous execution of multiple threads within each core"
     },
     {
-      page: 27,
+      page: 34,
       question: "How do multi-threaded CPUs enhance throughput and responsiveness?",
       options: [
         "a) By overlapping the execution of multiple tasks, particularly in parallelizable workloads",
@@ -8685,9 +8689,9 @@
       answer: "a) By overlapping the execution of multiple tasks, particularly in parallelizable workloads"
     },
 
-    // PAGE 28 - Parallel Computing GPUs
+    // PAGE 35 - Parallel Computing GPUs
     {
-      page: 28,
+      page: 35,
       question: "What are stream processors (shader cores) in a GPU responsible for?",
       options: [
         "a) Executing computational tasks in parallel, optimized for data-parallel operations",
@@ -8698,7 +8702,7 @@
       answer: "a) Executing computational tasks in parallel, optimized for data-parallel operations"
     },
     {
-      page: 28,
+      page: 35,
       question: "What are CUDA cores?",
       options: [
         "a) Specialized processing units in NVIDIA GPUs designed to execute tasks programmed using the CUDA platform and API",
@@ -8709,7 +8713,7 @@
       answer: "a) Specialized processing units in NVIDIA GPUs designed to execute tasks programmed using the CUDA platform and API"
     },
     {
-      page: 28,
+      page: 35,
       question: "For what kinds of applications are GPU stream processors particularly well-suited?",
       options: [
         "a) Graphics rendering, scientific computing, and machine learning",
@@ -8720,9 +8724,9 @@
       answer: "a) Graphics rendering, scientific computing, and machine learning"
     },
 
-    // PAGE 29 - Parallel Computing APUs
+    // PAGE 36 - Parallel Computing APUs
     {
-      page: 29,
+      page: 36,
       question: "What is an Accelerated Processing Unit (APU)?",
       options: [
         "a) A chip that integrates both CPU and GPU cores on a single chip",
@@ -8733,7 +8737,7 @@
       answer: "a) A chip that integrates both CPU and GPU cores on a single chip"
     },
     {
-      page: 29,
+      page: 36,
       question: "What are the CPU cores within an APU responsible for?",
       options: [
         "a) General-purpose computing tasks like executing application code and managing memory",
@@ -8744,7 +8748,7 @@
       answer: "a) General-purpose computing tasks like executing application code and managing memory"
     },
     {
-      page: 29,
+      page: 36,
       question: "What tasks are the GPU cores within an APU optimized for?",
       options: [
         "a) Parallel computation and graphics processing such as image rendering and video decoding",
@@ -8755,9 +8759,9 @@
       answer: "a) Parallel computation and graphics processing such as image rendering and video decoding"
     },
 
-    // PAGE 30 - SIMD
+    // PAGE 37 - SIMD
     {
-      page: 30,
+      page: 37,
       question: "In SIMD (Single Instruction, Multiple Data) architecture, what do multiple processors carry out?",
       options: [
         "a) Identical instructions, each with its own unique data set",
@@ -8768,7 +8772,7 @@
       answer: "a) Identical instructions, each with its own unique data set"
     },
     {
-      page: 30,
+      page: 37,
       question: "What controls the processing elements in a SIMD architecture?",
       options: [
         "a) A single control unit",
@@ -8779,7 +8783,7 @@
       answer: "a) A single control unit"
     },
     {
-      page: 30,
+      page: 37,
       question: "What are the two organizational modes into which SIMD architecture is further separated?",
       options: [
         "a) Bit-slice and word-slice modes",
@@ -8790,9 +8794,9 @@
       answer: "a) Bit-slice and word-slice modes"
     },
 
-    // PAGE 31 - MISD
+    // PAGE 38 - MISD
     {
-      page: 31,
+      page: 38,
       question: "In MISD (Multiple Instruction, Single Data) architecture, what do all processors share?",
       options: [
         "a) The same input data while using several different algorithms",
@@ -8803,7 +8807,7 @@
       answer: "a) The same input data while using several different algorithms"
     },
     {
-      page: 31,
+      page: 38,
       question: "In the MISD structure, how does data flow between processing units?",
       options: [
         "a) One processor's output becomes the input for the following processor",
@@ -8814,7 +8818,7 @@
       answer: "a) One processor's output becomes the input for the following processor"
     },
     {
-      page: 31,
+      page: 38,
       question: "How widely was the MISD organization adopted in practice, according to the lecture?",
       options: [
         "a) It garnered little notice and wasn't widely used in architecture",
@@ -8825,9 +8829,9 @@
       answer: "a) It garnered little notice and wasn't widely used in architecture"
     },
 
-    // PAGE 32 - MIMD
+    // PAGE 39 - MIMD
     {
-      page: 32,
+      page: 39,
       question: "What characterizes MIMD (Multiple Instruction, Multiple Data) computers?",
       options: [
         "a) Multiple processors, each capable of independently accepting its own instruction stream and drawing from a different data stream",
@@ -8838,7 +8842,7 @@
       answer: "a) Multiple processors, each capable of independently accepting its own instruction stream and drawing from a different data stream"
     },
     {
-      page: 32,
+      page: 39,
       question: "Compared to SIMD, what is a key challenge of MIMD computers?",
       options: [
         "a) Developing the sophisticated algorithms that power MIMD machines is more challenging",
@@ -8849,7 +8853,7 @@
       answer: "a) Developing the sophisticated algorithms that power MIMD machines is more challenging"
     },
     {
-      page: 32,
+      page: 39,
       question: "What does a MIMD computer organization incorporate due to shared data areas transmitted by all processors?",
       options: [
         "a) Interactions between the multiprocessors",
@@ -8860,9 +8864,9 @@
       answer: "a) Interactions between the multiprocessors"
     },
 
-    // PAGE 33 - SPMD
+    // PAGE 40 - SPMD
     {
-      page: 33,
+      page: 40,
       question: "What does SPMD stand for and what is it a subset of?",
       options: [
         "a) Single Program, Multiple Data; a subset of MIMD",
@@ -8873,7 +8877,7 @@
       answer: "a) Single Program, Multiple Data; a subset of MIMD"
     },
     {
-      page: 33,
+      page: 40,
       question: "In SPMD systems, what is each processor responsible for carrying out?",
       options: [
         "a) The same instructions as all other processors",
@@ -8884,7 +8888,7 @@
       answer: "a) The same instructions as all other processors"
     },
     {
-      page: 33,
+      page: 40,
       question: "How do nodes in an SPMD distributed memory system interact with each other?",
       options: [
         "a) Using send/receive routines to send and receive messages, and messages for barrier synchronization",
@@ -8895,7 +8899,7 @@
       answer: "a) Using send/receive routines to send and receive messages, and messages for barrier synchronization"
     },
     {
-      page: 33,
+      page: 40,
       question: "Which communication techniques are mentioned for transferring SPMD messages between nodes?",
       options: [
         "a) TCP/IP over Ethernet and specialized high-speed interconnects like Supercomputer Interconnect and Myrinet",
@@ -8906,9 +8910,9 @@
       answer: "a) TCP/IP over Ethernet and specialized high-speed interconnects like Supercomputer Interconnect and Myrinet"
     },
 
-    // PAGE 34 - SMP
+    // PAGE 41 - SMP
     {
-      page: 34,
+      page: 41,
       question: "What is Symmetric Multiprocessing (SMP) built around?",
       options: [
         "a) Multiple identical processors sharing the same physical memory and managed by a single OS instance",
@@ -8919,7 +8923,7 @@
       answer: "a) Multiple identical processors sharing the same physical memory and managed by a single OS instance"
     },
     {
-      page: 34,
+      page: 41,
       question: "In SMP, what is true about the priority of tasks each CPU can execute?",
       options: [
         "a) Each CPU can execute any task, including the OS kernel, with equal priority",
@@ -8930,7 +8934,7 @@
       answer: "a) Each CPU can execute any task, including the OS kernel, with equal priority"
     },
     {
-      page: 34,
+      page: 41,
       question: "What ensures that updates in one CPU's cache are reflected across all caches and main memory in SMP?",
       options: [
         "a) Cache coherency protocols",
@@ -8941,7 +8945,7 @@
       answer: "a) Cache coherency protocols"
     },
     {
-      page: 34,
+      page: 41,
       question: "How are processors interconnected in an SMP system?",
       options: [
         "a) Via a system bus, crossbar switch, or on-chip mesh",
@@ -8952,7 +8956,7 @@
       answer: "a) Via a system bus, crossbar switch, or on-chip mesh"
     },
     {
-      page: 34,
+      page: 41,
       question: "What does the shared memory model in SMP eliminate the need for?",
       options: [
         "a) Explicit messaging between CPUs",
@@ -8963,9 +8967,9 @@
       answer: "a) Explicit messaging between CPUs"
     },
 
-    // PAGE 35 - Clusters
+    // PAGE 42 - Clusters
     {
-      page: 35,
+      page: 42,
       question: "What is cluster computing?",
       options: [
         "a) A type of computing where multiple connected computers work together as a single system",
@@ -8976,7 +8980,7 @@
       answer: "a) A type of computing where multiple connected computers work together as a single system"
     },
     {
-      page: 35,
+      page: 42,
       question: "What does each computing resource in a cluster architecture represent?",
       options: [
         "a) A single node, each with an OS, memory, and I/O functions",
@@ -8987,7 +8991,7 @@
       answer: "a) A single node, each with an OS, memory, and I/O functions"
     },
     {
-      page: 35,
+      page: 42,
       question: "What are the two types of cluster architectures?",
       options: [
         "a) Open and closed clusters",
@@ -8998,7 +9002,7 @@
       answer: "a) Open and closed clusters"
     },
     {
-      page: 35,
+      page: 42,
       question: "What is the difference between open and closed clusters regarding IP addresses?",
       options: [
         "a) In an open cluster each computer has its own IP address; in a closed cluster each node is hidden behind a gateway node",
@@ -9009,7 +9013,7 @@
       answer: "a) In an open cluster each computer has its own IP address; in a closed cluster each node is hidden behind a gateway node"
     },
     {
-      page: 35,
+      page: 42,
       question: "Why are closed clusters considered less of a security risk than open clusters?",
       options: [
         "a) Because the gateway node controls access to other nodes, whose IP addresses aren't directly exposed on the internet",
@@ -9020,9 +9024,9 @@
       answer: "a) Because the gateway node controls access to other nodes, whose IP addresses aren't directly exposed on the internet"
     },
 
-    // PAGE 36 - Self-Learning Activity terms
+    // PAGE 43 - Self-Learning Activity terms
     {
-      page: 36,
+      page: 43,
       question: "The self-learning activity asks students to define which term describing parallelism at the level of individual bits within data words?",
       options: [
         "a) Bit-level parallelism",
@@ -9033,7 +9037,7 @@
       answer: "a) Bit-level parallelism"
     },
     {
-      page: 36,
+      page: 43,
       question: "Which self-learning activity term refers to executing multiple independent instructions from a program simultaneously?",
       options: [
         "a) Instruction-level parallelism",
@@ -9044,9 +9048,9 @@
       answer: "a) Instruction-level parallelism"
     },
 
-    // PAGE 37 - Challenges intro / Amdahl's Law
+    // PAGE 45 - Challenges intro / Amdahl's Law
     {
-      page: 37,
+      page: 45,
       question: "What does Amdahl's Law tell us about adding more processing units?",
       options: [
         "a) It does not always yield proportional speed gains",
@@ -9057,7 +9061,7 @@
       answer: "a) It does not always yield proportional speed gains"
     },
     {
-      page: 37,
+      page: 45,
       question: "What is the formula for Amdahl's Law speedup S(N)?",
       options: [
         "a) S(N) = 1 / ((1 - P) + P/N)",
@@ -9068,7 +9072,7 @@
       answer: "a) S(N) = 1 / ((1 - P) + P/N)"
     },
     {
-      page: 37,
+      page: 45,
       question: "In Amdahl's Law, what does 'P' represent?",
       options: [
         "a) The proportion of the task that can be parallelized",
@@ -9079,7 +9083,7 @@
       answer: "a) The proportion of the task that can be parallelized"
     },
     {
-      page: 37,
+      page: 45,
       question: "In Amdahl's Law, what does '1 - P' represent?",
       options: [
         "a) The portion of the task that is inherently sequential and cannot be parallelized",
@@ -9090,7 +9094,7 @@
       answer: "a) The portion of the task that is inherently sequential and cannot be parallelized"
     },
     {
-      page: 37,
+      page: 45,
       question: "According to Amdahl's Law, what happens to speedup as the number of processors (N) increases?",
       options: [
         "a) It plateaus, since the non-parallelizable sequential segment limits maximum achievable speedup",
@@ -9101,9 +9105,9 @@
       answer: "a) It plateaus, since the non-parallelizable sequential segment limits maximum achievable speedup"
     },
 
-    // PAGE 38 - Load Balancing
+    // PAGE 46 - Load Balancing
     {
-      page: 38,
+      page: 46,
       question: "What is load balancing?",
       options: [
         "a) The process of distributing network traffic efficiently among multiple servers to optimize availability and user experience",
@@ -9114,7 +9118,7 @@
       answer: "a) The process of distributing network traffic efficiently among multiple servers to optimize availability and user experience"
     },
     {
-      page: 38,
+      page: 46,
       question: "What are the two ways load balancing can be implemented?",
       options: [
         "a) Hardware load balancers (physical appliances) and software load balancers (applications or managed cloud services)",
@@ -9125,7 +9129,7 @@
       answer: "a) Hardware load balancers (physical appliances) and software load balancers (applications or managed cloud services)"
     },
     {
-      page: 38,
+      page: 46,
       question: "How do load balancers determine which backend server should process a request?",
       options: [
         "a) By mediating incoming client requests in real time and determining which servers are best able to process them",
@@ -9136,9 +9140,9 @@
       answer: "a) By mediating incoming client requests in real time and determining which servers are best able to process them"
     },
 
-    // PAGE 39 - Race Conditions and Synchronization
+    // PAGE 47 - Race Conditions and Synchronization
     {
-      page: 39,
+      page: 47,
       question: "What is a race condition?",
       options: [
         "a) A situation where the correctness of a program depends on the timing of parallel execution",
@@ -9149,7 +9153,7 @@
       answer: "a) A situation where the correctness of a program depends on the timing of parallel execution"
     },
     {
-      page: 39,
+      page: 47,
       question: "What synchronization mechanisms are used to prevent race conditions?",
       options: [
         "a) Mutexes (mutual exclusion locks) or semaphores",
@@ -9160,7 +9164,7 @@
       answer: "a) Mutexes (mutual exclusion locks) or semaphores"
     },
     {
-      page: 39,
+      page: 47,
       question: "What problem can excessive synchronization cause in parallel systems?",
       options: [
         "a) Performance bottlenecks, as too many locks can serialize execution and reduce parallelism benefits",
@@ -9171,9 +9175,9 @@
       answer: "a) Performance bottlenecks, as too many locks can serialize execution and reduce parallelism benefits"
     },
 
-    // PAGE 40 - Pipeline Stalls
+    // PAGE 48 - Pipeline Stalls
     {
-      page: 40,
+      page: 48,
       question: "What is pipeline parallelism, and what does a pipeline stall occur from?",
       options: [
         "a) Tasks are broken into sequential stages; a stall occurs when a stage cannot proceed because it's waiting for data or resources from the previous stage",
@@ -9184,7 +9188,7 @@
       answer: "a) Tasks are broken into sequential stages; a stall occurs when a stage cannot proceed because it's waiting for data or resources from the previous stage"
     },
     {
-      page: 40,
+      page: 48,
       question: "What causes a 'Data Dependency' pipeline stall?",
       options: [
         "a) A later stage depends on the output of an earlier stage and must wait for completion",
@@ -9195,7 +9199,7 @@
       answer: "a) A later stage depends on the output of an earlier stage and must wait for completion"
     },
     {
-      page: 40,
+      page: 48,
       question: "What is 'Resource Contention' as a cause of pipeline stalls?",
       options: [
         "a) Multiple stages compete for limited system resources, leading to delays",
@@ -9206,7 +9210,7 @@
       answer: "a) Multiple stages compete for limited system resources, leading to delays"
     },
     {
-      page: 40,
+      page: 48,
       question: "How can 'Branching and Control Flow' cause a pipeline stall?",
       options: [
         "a) When execution flow depends on conditions, the pipeline may pause while waiting for decisions",
@@ -9217,9 +9221,9 @@
       answer: "a) When execution flow depends on conditions, the pipeline may pause while waiting for decisions"
     },
 
-    // PAGE 41 - Granularity
+    // PAGE 49 - Granularity
     {
-      page: 41,
+      page: 49,
       question: "What does Granularity (Grain Size) measure?",
       options: [
         "a) The amount of work performed by a task",
@@ -9230,7 +9234,7 @@
       answer: "a) The amount of work performed by a task"
     },
     {
-      page: 41,
+      page: 49,
       question: "What characterizes fine-grained parallelism?",
       options: [
         "a) The program is broken into small tasks assigned to many processors, with work evenly distributed",
@@ -9241,7 +9245,7 @@
       answer: "a) The program is broken into small tasks assigned to many processors, with work evenly distributed"
     },
     {
-      page: 41,
+      page: 49,
       question: "What characterizes coarse-grained parallelism, and which architecture type is it best suited for?",
       options: [
         "a) The program is split into larger tasks, most computation is sequential within processors, difficult to load balance, and it is more suited for distributed systems",
@@ -9252,9 +9256,9 @@
       answer: "a) The program is split into larger tasks, most computation is sequential within processors, difficult to load balance, and it is more suited for distributed systems"
     },
 
-    // PAGE 42 - Use Cases: Smartphones & Supercomputers
+    // PAGE 50 - Use Cases: Smartphones & Supercomputers
     {
-      page: 42,
+      page: 50,
       question: "According to the lecture, how does the iPhone 14's CPU/GPU configuration support parallel processing?",
       options: [
         "a) It has a 6-core CPU and a 5-core GPU, enabling it to run 17 trillion tasks per second",
@@ -9265,7 +9269,7 @@
       answer: "a) It has a 6-core CPU and a 5-core GPU, enabling it to run 17 trillion tasks per second"
     },
     {
-      page: 42,
+      page: 50,
       question: "Why are supercomputers often called 'parallel computers'?",
       options: [
         "a) Because they rely so heavily on parallel computing",
@@ -9276,7 +9280,7 @@
       answer: "a) Because they rely so heavily on parallel computing"
     },
     {
-      page: 42,
+      page: 50,
       question: "How many operations per second does the American Summit supercomputer process, according to the lecture?",
       options: [
         "a) 200 quadrillion operations per second",
@@ -9287,9 +9291,9 @@
       answer: "a) 200 quadrillion operations per second"
     },
 
-    // PAGE 43 - Use Cases: Blockchains & Laptops
+    // PAGE 51 - Use Cases: Blockchains
     {
-      page: 43,
+      page: 51,
       question: "How does parallel computing benefit blockchain technology?",
       options: [
         "a) It enables transactions to be processed simultaneously instead of one at a time, increasing throughput and scalability",
@@ -9299,8 +9303,10 @@
       ],
       answer: "a) It enables transactions to be processed simultaneously instead of one at a time, increasing throughput and scalability"
     },
+
+    // PAGE 52 - Use Cases: Laptops
     {
-      page: 43,
+      page: 52,
       question: "Which multicore processors are given as examples in powerful laptops?",
       options: [
         "a) Intel Core i5 and HP Z8",
@@ -9311,7 +9317,7 @@
       answer: "a) Intel Core i5 and HP Z8"
     },
     {
-      page: 43,
+      page: 52,
       question: "What tasks does multicore parallelism enable modern laptops to perform?",
       options: [
         "a) Real-time video editing, 3D graphics rendering, and other resource-intensive tasks",
@@ -9322,9 +9328,9 @@
       answer: "a) Real-time video editing, 3D graphics rendering, and other resource-intensive tasks"
     },
 
-    // PAGE 44 - Use Cases: IoT & AI/ML
+    // PAGE 53 - Use Cases: IoT
     {
-      page: 44,
+      page: 53,
       question: "Why is parallel computing crucial for the Internet of Things (IoT)?",
       options: [
         "a) Traditional serial computing can't sift through sensor data fast enough for IoT systems to function",
@@ -9335,7 +9341,7 @@
       answer: "a) Traditional serial computing can't sift through sensor data fast enough for IoT systems to function"
     },
     {
-      page: 44,
+      page: 53,
       question: "Which complex systems are mentioned as depending on IoT data analysis enabled by parallel computing?",
       options: [
         "a) Power plants, dams, and traffic systems",
@@ -9345,8 +9351,10 @@
       ],
       answer: "a) Power plants, dams, and traffic systems"
     },
+
+    // PAGE 54 - Use Cases: AI/ML
     {
-      page: 44,
+      page: 54,
       question: "What critical role does parallel computing play in AI and machine learning?",
       options: [
         "a) It significantly reduces the time required to train ML models by performing operations simultaneously",
@@ -9357,7 +9365,7 @@
       answer: "a) It significantly reduces the time required to train ML models by performing operations simultaneously"
     },
     {
-      page: 44,
+      page: 54,
       question: "Which AI applications are specifically mentioned as benefiting from parallel computing in ML training?",
       options: [
         "a) Facial recognition and natural language processing (NLP)",
@@ -9367,8 +9375,7 @@
       ],
       answer: "a) Facial recognition and natural language processing (NLP)"
     }
-  ]
-},
+  ]},
 
 // CSCI 12532 - Computer Architecture and Design
 // Quiz Question Bank: Lecture 08 (I/O Modules) & Lecture 09 (Memory)
