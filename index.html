@@ -9998,7 +9998,7 @@
       answer: "a) It ensures synchronization, enables plug-and-play, and improves reliability"
     },
 
-    // PAGE 17 - Data Buffering Function
+    // PAGE 17 - Data Buffering Function (intro & Output Operation)
     {
       page: 17,
       question: "What speed mismatch does Data Buffering resolve?",
@@ -10021,8 +10021,10 @@
       ],
       answer: "a) Stores data in its buffer and sends it to the device at a sustainable rate"
     },
+
+    // PAGE 18 - Data Buffering Function (Input Operation, High-Speed Peripherals, examples)
     {
-      page: 17,
+      page: 18,
       question: "During an Input Operation (Peripheral → CPU/Memory), why is data buffered until a sufficient block is ready?",
       options: [
         "a) For efficient memory transfer and to prevent memory bus congestion from slow transfers",
@@ -10033,7 +10035,7 @@
       answer: "a) For efficient memory transfer and to prevent memory bus congestion from slow transfers"
     },
     {
-      page: 17,
+      page: 18,
       question: "For High-Speed Peripherals like SSDs and GPUs, what does the I/O module do if the device is faster than memory bandwidth?",
       options: [
         "a) Buffers data to avoid overwhelming the system and coordinates burst transfers during memory idle cycles",
@@ -10044,7 +10046,7 @@
       answer: "a) Buffers data to avoid overwhelming the system and coordinates burst transfers during memory idle cycles"
     },
     {
-      page: 17,
+      page: 18,
       question: "Which examples of buffering are given for real-world systems?",
       options: [
         "a) Print Spooling and Network Cards buffering packets",
@@ -10055,9 +10057,9 @@
       answer: "a) Print Spooling and Network Cards buffering packets"
     },
 
-    // PAGE 18 - Error Detection Function
+    // PAGE 19 - Error Detection Function
     {
-      page: 18,
+      page: 19,
       question: "What does the Error Detection function of an I/O module ensure?",
       options: [
         "a) Data integrity during transfers between CPU, memory, and peripherals",
@@ -10068,7 +10070,7 @@
       answer: "a) Data integrity during transfers between CPU, memory, and peripherals"
     },
     {
-      page: 18,
+      page: 19,
       question: "Which two types of errors does the Error Detection function identify?",
       options: [
         "a) Device-Level Errors and Data Transmission Errors",
@@ -10079,7 +10081,7 @@
       answer: "a) Device-Level Errors and Data Transmission Errors"
     },
     {
-      page: 18,
+      page: 19,
       question: "What are the three steps of the Error Handling Workflow mentioned?",
       options: [
         "a) Detection, Reporting, Recovery (if possible)",
@@ -10090,9 +10092,9 @@
       answer: "a) Detection, Reporting, Recovery (if possible)"
     },
 
-    // PAGE 19 - I/O Module Structure & Functionality (summary)
+    // PAGE 20 - I/O Module Structure & Functionality (Processor Interaction / Control Lines)
     {
-      page: 19,
+      page: 20,
       question: "According to the summary of I/O Module Structure & Functionality, what do Control Lines allow the CPU to do?",
       options: [
         "a) Send commands, e.g. initiate a transfer",
@@ -10102,8 +10104,10 @@
       ],
       answer: "a) Send commands, e.g. initiate a transfer"
     },
+
+    // PAGE 21 - I/O Module Structure & Functionality (Address Management, Device-Specific Logic, I/O Processor)
     {
-      page: 19,
+      page: 21,
       question: "In Address Management, what does each I/O module do?",
       options: [
         "a) Recognizes unique addresses for its peripherals and generates device-specific signals during transfers",
@@ -10114,7 +10118,7 @@
       answer: "a) Recognizes unique addresses for its peripherals and generates device-specific signals during transfers"
     },
     {
-      page: 19,
+      page: 21,
       question: "What does 'Acts as an I/O Processor' mean for an I/O module, per the summary?",
       options: [
         "a) It presents a high-level interface (hides hardware complexity) and offloads low-level tasks from the CPU",
@@ -10125,7 +10129,7 @@
       answer: "a) It presents a high-level interface (hides hardware complexity) and offloads low-level tasks from the CPU"
     },
     {
-      page: 19,
+      page: 21,
       question: "Which examples are given of an I/O module acting as an I/O processor?",
       options: [
         "a) DMA controllers, GPU command processors",
@@ -10136,9 +10140,9 @@
       answer: "a) DMA controllers, GPU command processors"
     },
 
-    // PAGE 20 - System Bus definition
+    // PAGE 22 - System Bus definition
     {
-      page: 20,
+      page: 22,
       question: "How is a system bus defined in the lecture?",
       options: [
         "a) A set of parallel wires or traces on a circuit board that facilitates communication between the CPU, memory, and peripheral devices",
@@ -10149,7 +10153,7 @@
       answer: "a) A set of parallel wires or traces on a circuit board that facilitates communication between the CPU, memory, and peripheral devices"
     },
     {
-      page: 20,
+      page: 22,
       question: "Into which three primary buses is the system bus subdivided?",
       options: [
         "a) Data bus, address bus, control bus",
@@ -10160,7 +10164,7 @@
       answer: "a) Data bus, address bus, control bus"
     },
     {
-      page: 20,
+      page: 22,
       question: "What is the system bus described as being for a computer's internal communication network?",
       options: [
         "a) The backbone",
@@ -10171,9 +10175,9 @@
       answer: "a) The backbone"
     },
 
-    // PAGE 21 - How System Bus Works (steps)
+    // PAGE 23 - How System Bus Works (steps)
     {
-      page: 21,
+      page: 23,
       question: "In the system bus operation, what happens in Step 1?",
       options: [
         "a) CPU places an address on the address bus",
@@ -10184,7 +10188,7 @@
       answer: "a) CPU places an address on the address bus"
     },
     {
-      page: 21,
+      page: 23,
       question: "In the system bus operation, what does Step 2 involve?",
       options: [
         "a) Control bus signals read/write and synchronizes the transaction",
@@ -10195,7 +10199,7 @@
       answer: "a) Control bus signals read/write and synchronizes the transaction"
     },
     {
-      page: 21,
+      page: 23,
       question: "In the system bus operation, what happens in Step 3?",
       options: [
         "a) Data is transferred via the data bus, e.g. RAM → CPU for a read operation",
@@ -10206,9 +10210,9 @@
       answer: "a) Data is transferred via the data bus, e.g. RAM → CPU for a read operation"
     },
 
-    // PAGE 22 - Basic functions of a system bus (Internal, External)
+    // PAGE 24 - Basic functions of a system bus (Internal, External)
     {
-      page: 22,
+      page: 24,
       question: "What does the Internal Function (Memory Bus) of a system bus connect?",
       options: [
         "a) Internal hardware components (CPU, RAM, cache)",
@@ -10219,7 +10223,7 @@
       answer: "a) Internal hardware components (CPU, RAM, cache)"
     },
     {
-      page: 22,
+      page: 24,
       question: "What does the External Function (Expansion Bus) of a system bus link?",
       options: [
         "a) External devices (printers, mice, USB drives) using standardized interfaces like USB, PCIe, Thunderbolt",
@@ -10230,7 +10234,7 @@
       answer: "a) External devices (printers, mice, USB drives) using standardized interfaces like USB, PCIe, Thunderbolt"
     },
     {
-      page: 22,
+      page: 24,
       question: "What example is given for the Internal Function of a system bus?",
       options: [
         "a) CPU fetching instructions from RAM",
@@ -10241,9 +10245,9 @@
       answer: "a) CPU fetching instructions from RAM"
     },
 
-    // PAGE 23 - Data Sharing, Addressing, Power Distribution
+    // PAGE 25 - Data Sharing, Addressing, Power Distribution
     {
-      page: 23,
+      page: 25,
       question: "What determines the data capacity per transfer for the system bus's Data Sharing function?",
       options: [
         "a) Bus width (e.g., 32-bit, 64-bit)",
@@ -10254,7 +10258,7 @@
       answer: "a) Bus width (e.g., 32-bit, 64-bit)"
     },
     {
-      page: 23,
+      page: 25,
       question: "What does the Addressing function of a system bus specify?",
       options: [
         "a) Memory/I/O locations for data transfer",
@@ -10265,7 +10269,7 @@
       answer: "a) Memory/I/O locations for data transfer"
     },
     {
-      page: 23,
+      page: 25,
       question: "What does the Power Distribution function of a system bus supply?",
       options: [
         "a) Electrical power to connected devices (e.g., USB peripherals), ensuring stable voltage",
@@ -10276,9 +10280,9 @@
       answer: "a) Electrical power to connected devices (e.g., USB peripherals), ensuring stable voltage"
     },
 
-    // PAGE 24 - Data Bus
+    // PAGE 26 - Data Bus
     {
-      page: 24,
+      page: 26,
       question: "What does the Data Bus transfer?",
       options: [
         "a) Actual data between components (CPU ↔ Memory ↔ I/O Devices)",
@@ -10289,7 +10293,7 @@
       answer: "a) Actual data between components (CPU ↔ Memory ↔ I/O Devices)"
     },
     {
-      page: 24,
+      page: 26,
       question: "Is the Data Bus unidirectional or bidirectional?",
       options: [
         "a) Bidirectional (can send and receive data)",
@@ -10300,7 +10304,7 @@
       answer: "a) Bidirectional (can send and receive data)"
     },
     {
-      page: 24,
+      page: 26,
       question: "What determines how much data the Data Bus transfers at once?",
       options: [
         "a) Its width (e.g., 32-bit, 64-bit)",
@@ -10311,9 +10315,9 @@
       answer: "a) Its width (e.g., 32-bit, 64-bit)"
     },
 
-    // PAGE 25 - Address Bus
+    // PAGE 26 - Address Bus
     {
-      page: 25,
+      page: 26,
       question: "What does the Address Bus carry?",
       options: [
         "a) Memory/I/O addresses to specify where data is read from or written to",
@@ -10324,7 +10328,7 @@
       answer: "a) Memory/I/O addresses to specify where data is read from or written to"
     },
     {
-      page: 25,
+      page: 26,
       question: "Is the Address Bus unidirectional or bidirectional?",
       options: [
         "a) Unidirectional (CPU → Memory/I/O)",
@@ -10335,7 +10339,7 @@
       answer: "a) Unidirectional (CPU → Memory/I/O)"
     },
     {
-      page: 25,
+      page: 26,
       question: "For a 32-bit Address Bus, what is the maximum addressable memory limit?",
       options: [
         "a) 4GB",
@@ -10346,9 +10350,9 @@
       answer: "a) 4GB"
     },
 
-    // PAGE 26 - Control Bus + Summary
+    // PAGE 27 - Control Bus + Summary
     {
-      page: 26,
+      page: 27,
       question: "What does the Control Bus manage?",
       options: [
         "a) Timing, coordination, and commands for bus operations",
@@ -10359,7 +10363,7 @@
       answer: "a) Timing, coordination, and commands for bus operations"
     },
     {
-      page: 26,
+      page: 27,
       question: "Which of the following is NOT listed as a key signal of the Control Bus?",
       options: [
         "a) Read/Write",
@@ -10370,7 +10374,7 @@
       answer: "d) Screen brightness"
     },
     {
-      page: 26,
+      page: 27,
       question: "According to the summary analogy, what role does the Address Bus play?",
       options: [
         "a) The 'GPS' for locating data",
@@ -10381,7 +10385,7 @@
       answer: "a) The 'GPS' for locating data"
     },
     {
-      page: 26,
+      page: 27,
       question: "According to the summary analogy, what role does the Control Bus play?",
       options: [
         "a) The 'traffic controller' for coordination",
@@ -10392,9 +10396,9 @@
       answer: "a) The 'traffic controller' for coordination"
     },
 
-    // PAGE 27 - Synchronous Bus
+    // PAGE 28 - Synchronous Bus
     {
-      page: 27,
+      page: 28,
       question: "What characterizes a Synchronous Bus?",
       options: [
         "a) It is clock-driven with fixed timing, following a strict clock cycle schedule",
@@ -10405,7 +10409,7 @@
       answer: "a) It is clock-driven with fixed timing, following a strict clock cycle schedule"
     },
     {
-      page: 27,
+      page: 28,
       question: "In a Synchronous Bus, when is data typically read/written?",
       options: [
         "a) Only at the rising edge of the clock",
@@ -10416,7 +10420,7 @@
       answer: "a) Only at the rising edge of the clock"
     },
     {
-      page: 27,
+      page: 28,
       question: "Which of the following is a disadvantage of a Synchronous Bus?",
       options: [
         "a) Inflexible for slow devices, which must match bus speed",
@@ -10427,7 +10431,7 @@
       answer: "a) Inflexible for slow devices, which must match bus speed"
     },
     {
-      page: 27,
+      page: 28,
       question: "Which use case is given for a Synchronous Bus?",
       options: [
         "a) CPU-RAM communication (e.g., DDR SDRAM)",
@@ -10438,9 +10442,9 @@
       answer: "a) CPU-RAM communication (e.g., DDR SDRAM)"
     },
 
-    // PAGE 28 - Asynchronous Bus
+    // PAGE 29 - Asynchronous Bus
     {
-      page: 28,
+      page: 29,
       question: "What characterizes an Asynchronous Bus?",
       options: [
         "a) It is clock-independent, using handshake signals like READY and STROBE to coordinate",
@@ -10451,7 +10455,7 @@
       answer: "a) It is clock-independent, using handshake signals like READY and STROBE to coordinate"
     },
     {
-      page: 28,
+      page: 29,
       question: "In the printer example for the Asynchronous Bus, what does the printer do before accepting data?",
       options: [
         "a) Asserts READY",
@@ -10462,7 +10466,7 @@
       answer: "a) Asserts READY"
     },
     {
-      page: 28,
+      page: 29,
       question: "Which of the following is a disadvantage of an Asynchronous Bus?",
       options: [
         "a) Slower due to handshaking overhead",
@@ -10473,7 +10477,7 @@
       answer: "a) Slower due to handshaking overhead"
     },
     {
-      page: 28,
+      page: 29,
       question: "Which use cases are given for the Asynchronous Bus?",
       options: [
         "a) External peripherals (USB, SCSI) and legacy systems (ISA bus)",
@@ -10484,9 +10488,9 @@
       answer: "a) External peripherals (USB, SCSI) and legacy systems (ISA bus)"
     },
 
-    // PAGE 29 - Evolution of I/O Function Steps 1-2
+    // PAGE 30 - Evolution of I/O Function Step 1
     {
-      page: 29,
+      page: 30,
       question: "In Step 1 (Direct CPU Control) of the evolution of I/O function, how does the CPU interact with a peripheral?",
       options: [
         "a) The CPU directly controls the peripheral device, e.g. a basic thermostat",
@@ -10497,7 +10501,7 @@
       answer: "a) The CPU directly controls the peripheral device, e.g. a basic thermostat"
     },
     {
-      page: 29,
+      page: 31,
       question: "In Step 2 (Controller/Module Added) of the evolution of I/O function, what is added and what happens to the CPU's involvement?",
       options: [
         "a) An I/O module (controller) is added; CPU uses programmed I/O (no interrupts) and becomes less involved in device-specific details",
@@ -10508,9 +10512,9 @@
       answer: "a) An I/O module (controller) is added; CPU uses programmed I/O (no interrupts) and becomes less involved in device-specific details"
     },
 
-    // PAGE 30 - Evolution Steps 3-4
+    // PAGE 31 - Evolution Steps 2-4
     {
-      page: 30,
+      page: 31,
       question: "In Step 3 (Interrupts Added) of the evolution of I/O function, what benefit does this bring?",
       options: [
         "a) CPU no longer waits for I/O operations, increasing efficiency",
@@ -10521,7 +10525,7 @@
       answer: "a) CPU no longer waits for I/O operations, increasing efficiency"
     },
     {
-      page: 30,
+      page: 31,
       question: "In Step 4 (Direct Memory Access/DMA) of the evolution of I/O function, when is the CPU involved?",
       options: [
         "a) Only at the start and end of the transfer",
@@ -10532,7 +10536,7 @@
       answer: "a) Only at the start and end of the transfer"
     },
     {
-      page: 30,
+      page: 31,
       question: "What does DMA allow the I/O module to do, per Step 4 of the evolution?",
       options: [
         "a) Transfer whole blocks of data to/from memory without CPU intervention",
@@ -10543,9 +10547,9 @@
       answer: "a) Transfer whole blocks of data to/from memory without CPU intervention"
     },
 
-    // PAGE 31 - Evolution Steps 5-6
+    // PAGE 32 - Evolution Steps 5-6
     {
-      page: 31,
+      page: 32,
       question: "In Step 5 (I/O Channel) of the evolution of I/O function, what does the I/O module become?",
       options: [
         "a) A processor with I/O-specific instructions that fetches/executes instructions without CPU help",
@@ -10556,7 +10560,7 @@
       answer: "a) A processor with I/O-specific instructions that fetches/executes instructions without CPU help"
     },
     {
-      page: 31,
+      page: 32,
       question: "In Step 5, when is the CPU interrupted?",
       options: [
         "a) Only after the entire sequence of I/O activities is finished",
@@ -10567,7 +10571,7 @@
       answer: "a) Only after the entire sequence of I/O activities is finished"
     },
     {
-      page: 31,
+      page: 32,
       question: "In Step 6 (I/O Processor with Local Memory), what does the I/O module effectively become?",
       options: [
         "a) A full computer with its own local memory",
@@ -10578,7 +10582,7 @@
       answer: "a) A full computer with its own local memory"
     },
     {
-      page: 31,
+      page: 32,
       question: "What is a common use case given for Step 6, the I/O Processor with local memory?",
       options: [
         "a) Controlling a large set of interactive terminals (e.g., terminal concentrators)",
@@ -10589,9 +10593,9 @@
       answer: "a) Controlling a large set of interactive terminals (e.g., terminal concentrators)"
     },
 
-    // PAGE 32 - What Is an I/O Channel?
+    // PAGE 33 - What Is an I/O Channel?
     {
-      page: 32,
+      page: 33,
       question: "What can an I/O channel execute, giving it full control over I/O operations?",
       options: [
         "a) I/O instructions",
@@ -10602,7 +10606,7 @@
       answer: "a) I/O instructions"
     },
     {
-      page: 32,
+      page: 33,
       question: "Does the CPU execute the I/O instructions used by an I/O channel?",
       options: [
         "a) No, the CPU does not execute I/O instructions — they reside in memory for the channel",
@@ -10613,7 +10617,7 @@
       answer: "a) No, the CPU does not execute I/O instructions — they reside in memory for the channel"
     },
     {
-      page: 32,
+      page: 33,
       question: "What does the I/O program (run by the channel) specify?",
       options: [
         "a) Devices, memory areas, priority, error handling",
@@ -10624,9 +10628,9 @@
       answer: "a) Devices, memory areas, priority, error handling"
     },
 
-    // PAGE 33 - Two Types of I/O Channels
+    // PAGE 34 - Two Types of I/O Channels
     {
-      page: 33,
+      page: 34,
       question: "What does a Selector Channel do?",
       options: [
         "a) Controls multiple high-speed devices but is dedicated to one device at a time",
@@ -10637,7 +10641,7 @@
       answer: "a) Controls multiple high-speed devices but is dedicated to one device at a time"
     },
     {
-      page: 33,
+      page: 34,
       question: "What does a Multiplexor Channel do?",
       options: [
         "a) Handles I/O with multiple devices at the same time",
@@ -10648,7 +10652,7 @@
       answer: "a) Handles I/O with multiple devices at the same time"
     },
     {
-      page: 33,
+      page: 34,
       question: "What is a Byte Multiplexor used for, and how does it operate?",
       options: [
         "a) For low-speed devices; it interleaves characters",
@@ -10659,7 +10663,7 @@
       answer: "a) For low-speed devices; it interleaves characters"
     },
     {
-      page: 33,
+      page: 34,
       question: "Given three devices with streams A1A2A3…, B1B2…, and C1C2…, what interleaved sequence does a Byte Multiplexor produce, per the lecture's example?",
       options: [
         "a) A1 B1 C1 A2 C2 A3 B2 C3 …",
@@ -10670,7 +10674,7 @@
       answer: "a) A1 B1 C1 A2 C2 A3 B2 C3 …"
     },
     {
-      page: 33,
+      page: 34,
       question: "What is a Block Multiplexor used for?",
       options: [
         "a) High-speed devices; it interleaves blocks of data",
@@ -10681,9 +10685,9 @@
       answer: "a) High-speed devices; it interleaves blocks of data"
     },
 
-    // PAGE 34 - Input-Output Processor (IOP)
+    // PAGE 36 - Input-Output Processor (IOP)
     {
-      page: 34,
+      page: 36,
       question: "What is an Input-Output Processor (IOP)?",
       options: [
         "a) A specialized processor that manages I/O operations independently of the CPU, with DMA capability",
@@ -10694,7 +10698,7 @@
       answer: "a) A specialized processor that manages I/O operations independently of the CPU, with DMA capability"
     },
     {
-      page: 34,
+      page: 36,
       question: "In an IOP-based system architecture, what is shared between the CPU and IOPs?",
       options: [
         "a) The memory unit",
@@ -10705,7 +10709,7 @@
       answer: "a) The memory unit"
     },
     {
-      page: 34,
+      page: 36,
       question: "How does the CPU delegate I/O tasks to the IOP?",
       options: [
         "a) Via channel programs stored in memory",
@@ -10716,7 +10720,7 @@
       answer: "a) Via channel programs stored in memory"
     },
     {
-      page: 34,
+      page: 36,
       question: "Which examples are given of tasks the IOP fetches and executes autonomously?",
       options: [
         "a) Disk seek, printer spooling, network packet handling",
@@ -10727,9 +10731,9 @@
       answer: "a) Disk seek, printer spooling, network packet handling"
     },
 
-    // PAGE 35 - Comparison with CPU (table)
+    // PAGE 37 - Comparison with CPU (table)
     {
-      page: 35,
+      page: 37,
       question: "According to the CPU vs IOP comparison table, what is the Primary Role of the CPU?",
       options: [
         "a) General computation",
@@ -10740,7 +10744,7 @@
       answer: "a) General computation"
     },
     {
-      page: 35,
+      page: 37,
       question: "According to the CPU vs IOP comparison table, what type of memory access does the IOP use?",
       options: [
         "a) DMA-enabled (bypasses CPU)",
@@ -10751,7 +10755,7 @@
       answer: "a) DMA-enabled (bypasses CPU)"
     },
     {
-      page: 35,
+      page: 37,
       question: "According to the CPU vs IOP comparison table, what describes the IOP's Dependency?",
       options: [
         "a) Works under CPU supervision",
@@ -10762,7 +10766,7 @@
       answer: "a) Works under CPU supervision"
     },
     {
-      page: 35,
+      page: 37,
       question: "According to the CPU vs IOP comparison table, what type of instructions does the IOP use?",
       options: [
         "a) I/O-focused (e.g., SCSI commands)",
@@ -10773,9 +10777,9 @@
       answer: "a) I/O-focused (e.g., SCSI commands)"
     },
 
-    // PAGE 36 - Characteristics of an IOP (1-3)
+    // PAGE 39 - Characteristics of an IOP (1-3)
     {
-      page: 36,
+      page: 39,
       question: "What kind of instruction set does an IOP have?",
       options: [
         "a) A Specialized, I/O-Focused instruction set for device-specific operations",
@@ -10786,7 +10790,7 @@
       answer: "a) A Specialized, I/O-Focused instruction set for device-specific operations"
     },
     {
-      page: 36,
+      page: 39,
       question: "Which of the following is an example Tape command listed for an IOP's specialized instruction set?",
       options: [
         "a) REWIND",
@@ -10797,7 +10801,7 @@
       answer: "a) REWIND"
     },
     {
-      page: 36,
+      page: 39,
       question: "What does I/O Program Execution allow an IOP to do?",
       options: [
         "a) Run autonomous I/O programs stored in memory, offloading the CPU which only initiates the program",
@@ -10808,7 +10812,7 @@
       answer: "a) Run autonomous I/O programs stored in memory, offloading the CPU which only initiates the program"
     },
     {
-      page: 36,
+      page: 39,
       question: "What does Multi-Device Support of an IOP mean?",
       options: [
         "a) It decodes commands for diverse peripherals like disks, tapes, printers, and NICs, each with a unique command set",
@@ -10819,9 +10823,9 @@
       answer: "a) It decodes commands for diverse peripherals like disks, tapes, printers, and NICs, each with a unique command set"
     },
 
-    // PAGE 37 - Characteristics continued (4-5) High-Speed Transfer, Scalability
+    // PAGE 40 - Characteristics continued (4-5) High-Speed Transfer, Scalability
     {
-      page: 37,
+      page: 40,
       question: "What enables High-Speed Data Transfer in an IOP?",
       options: [
         "a) DMA, which transfers data directly to/from memory without CPU intervention, enabling burst transfers",
@@ -10832,7 +10836,7 @@
       answer: "a) DMA, which transfers data directly to/from memory without CPU intervention, enabling burst transfers"
     },
     {
-      page: 37,
+      page: 40,
       question: "How does an IOP smooth speed mismatches during high-speed data transfer?",
       options: [
         "a) Buffering, using onboard registers",
@@ -10843,7 +10847,7 @@
       answer: "a) Buffering, using onboard registers"
     },
     {
-      page: 37,
+      page: 40,
       question: "What does the Scalability & Flexibility characteristic of an IOP support?",
       options: [
         "a) Multiple devices simultaneously via channels or multiplexing, and hot-swappable devices like USB/Thunderbolt",
@@ -10854,9 +10858,9 @@
       answer: "a) Multiple devices simultaneously via channels or multiplexing, and hot-swappable devices like USB/Thunderbolt"
     },
 
-    // PAGE 38 - Functioning of IOP (steps 1-3)
+    // PAGE 41 - Functioning of IOP (steps 1-3)
     {
-      page: 38,
+      page: 41,
       question: "In Step 1 of IOP functioning, what does the CPU provide to the IOP?",
       options: [
         "a) The memory address of the I/O program (channel program)",
@@ -10867,7 +10871,7 @@
       answer: "a) The memory address of the I/O program (channel program)"
     },
     {
-      page: 38,
+      page: 41,
       question: "In Step 2, once the IOP takes over, what does it do?",
       options: [
         "a) Fetches the I/O program from memory, decodes and executes device-specific commands, and manages data transfer autonomously using DMA",
@@ -10878,7 +10882,7 @@
       answer: "a) Fetches the I/O program from memory, decodes and executes device-specific commands, and manages data transfer autonomously using DMA"
     },
     {
-      page: 38,
+      page: 41,
       question: "In Step 3 (Completion & Interrupt), what happens after the transfer is done?",
       options: [
         "a) The IOP raises an interrupt to notify the CPU, which then handles post-processing",
@@ -10889,9 +10893,9 @@
       answer: "a) The IOP raises an interrupt to notify the CPU, which then handles post-processing"
     },
 
-    // PAGE 39 - IOP as "co-pilot" summary
+    // PAGE 42 - IOP as "co-pilot" summary
     {
-      page: 39,
+      page: 42,
       question: "In the 'co-pilot' analogy for the IOP, what are the three roles described?",
       options: [
         "a) CPU delegates, IOP executes, IOP alerts",
@@ -10902,7 +10906,7 @@
       answer: "a) CPU delegates, IOP executes, IOP alerts"
     },
     {
-      page: 39,
+      page: 42,
       question: "In the CPU-IOP-Memory sequence diagram, what happens right after the CPU issues an instruction to the IOP?",
       options: [
         "a) The IOP brings the I/O instruction from the I/O Program address specified by the CPU from memory",
@@ -10913,7 +10917,7 @@
       answer: "a) The IOP brings the I/O instruction from the I/O Program address specified by the CPU from memory"
     },
     {
-      page: 39,
+      page: 42,
       question: "According to the sequence diagram, when does the IOP raise an interrupt to the CPU?",
       options: [
         "a) If all the instructions in the I/O program are complete",
@@ -10924,9 +10928,9 @@
       answer: "a) If all the instructions in the I/O program are complete"
     },
 
-    // PAGE 40 - CPU-IOP Instruction Format (1-2)
+    // PAGE 43 - CPU-IOP Instruction Format (1-2)
     {
-      page: 40,
+      page: 43,
       question: "What does the CPU Opcode in a CPU-IOP instruction identify?",
       options: [
         "a) That the instruction is an I/O command, not a CPU computation",
@@ -10937,7 +10941,7 @@
       answer: "a) That the instruction is an I/O command, not a CPU computation"
     },
     {
-      page: 40,
+      page: 43,
       question: "What does the I/O Device Address field in a CPU-IOP instruction specify?",
       options: [
         "a) Which peripheral device the I/O program targets, e.g. 0x01 = disk, 0x02 = printer",
@@ -10948,7 +10952,7 @@
       answer: "a) Which peripheral device the I/O program targets, e.g. 0x01 = disk, 0x02 = printer"
     },
     {
-      page: 40,
+      page: 43,
       question: "In the example, what does the CPU send to run a program on a tape drive?",
       options: [
         "a) 'Run the program on Device 0x03 (tape drive)'",
@@ -10959,9 +10963,9 @@
       answer: "a) 'Run the program on Device 0x03 (tape drive)'"
     },
 
-    // PAGE 41 - I/O Program Address (Channel Program Address)
+    // PAGE 44 - I/O Program Address (Channel Program Address)
     {
-      page: 41,
+      page: 44,
       question: "What does the I/O Program Address (Channel Program Address) field point to?",
       options: [
         "a) The memory location of the I/O program (sequence of commands)",
@@ -10972,7 +10976,7 @@
       answer: "a) The memory location of the I/O program (sequence of commands)"
     },
     {
-      page: 41,
+      page: 44,
       question: "In the example, what three device-specific operations are stored at memory address 0x5000?",
       options: [
         "a) SEEK TRACK 12, READ SECTOR 5, VERIFY CHECKSUM",
@@ -10983,7 +10987,7 @@
       answer: "a) SEEK TRACK 12, READ SECTOR 5, VERIFY CHECKSUM"
     },
     {
-      page: 41,
+      page: 44,
       question: "What are the three fields shown in the CPU-IOP instruction format diagram?",
       options: [
         "a) CPU Opcode, I/O Device Address, Memory Address of I/O Program",
@@ -10994,9 +10998,9 @@
       answer: "a) CPU Opcode, I/O Device Address, Memory Address of I/O Program"
     },
 
-    // PAGE 42 - I/O Program (I/O Opcode)
+    // PAGE 45 - I/O Program (I/O Opcode)
     {
-      page: 42,
+      page: 45,
       question: "What does the I/O Opcode within an I/O instruction specify?",
       options: [
         "a) The operation to perform, e.g. READ, WRITE, SEEK",
@@ -11007,7 +11011,7 @@
       answer: "a) The operation to perform, e.g. READ, WRITE, SEEK"
     },
     {
-      page: 42,
+      page: 45,
       question: "In the example, what does opcode 0x01 represent?",
       options: [
         "a) READ_SECTOR (disk)",
@@ -11018,7 +11022,7 @@
       answer: "a) READ_SECTOR (disk)"
     },
     {
-      page: 42,
+      page: 45,
       question: "Is the I/O Program stored and executed by the CPU or the IOP?",
       options: [
         "a) Stored in main memory; fetched/executed by the IOP (not the CPU)",
@@ -11029,9 +11033,9 @@
       answer: "a) Stored in main memory; fetched/executed by the IOP (not the CPU)"
     },
 
-    // PAGE 43 - Data Transfer Instructions, Control Information
+    // PAGE 46 - Data Transfer Instructions, Control Information
     {
-      page: 43,
+      page: 46,
       question: "What does the Data Transfer Count field of a Data Transfer Instruction specify?",
       options: [
         "a) The size of data to transfer, e.g. 512 bytes for a disk sector",
@@ -11042,7 +11046,7 @@
       answer: "a) The size of data to transfer, e.g. 512 bytes for a disk sector"
     },
     {
-      page: 43,
+      page: 46,
       question: "How does the IOP access the Memory Address for a data transfer instruction?",
       options: [
         "a) Via the system bus, competing for bus access using arbitration",
@@ -11053,7 +11057,7 @@
       answer: "a) Via the system bus, competing for bus access using arbitration"
     },
     {
-      page: 43,
+      page: 46,
       question: "In Control Information for an I/O instruction, what does the 'Chain' bit indicate?",
       options: [
         "a) Whether another I/O instruction follows (for multi-step operations)",
@@ -11064,7 +11068,7 @@
       answer: "a) Whether another I/O instruction follows (for multi-step operations)"
     },
     {
-      page: 43,
+      page: 46,
       question: "What does the 'End' bit mark in an I/O instruction's Control Information?",
       options: [
         "a) The last instruction in the program",
@@ -11075,9 +11079,9 @@
       answer: "a) The last instruction in the program"
     },
 
-    // PAGE 44 - CPU—IOP Communication (diagram)
+    // PAGE 47 - CPU—IOP Communication (diagram)
     {
-      page: 44,
+      page: 47,
       question: "In the CPU—IOP Communication diagram, what is the first CPU operation?",
       options: [
         "a) Send instruction to test IOP path",
@@ -11088,7 +11092,7 @@
       answer: "a) Send instruction to test IOP path"
     },
     {
-      page: 44,
+      page: 47,
       question: "What does the IOP do immediately after conducting I/O transfers using DMA, per the diagram?",
       options: [
         "a) Prepares a status report",
@@ -11099,7 +11103,7 @@
       answer: "a) Prepares a status report"
     },
     {
-      page: 44,
+      page: 47,
       question: "After the I/O transfer is completed and the CPU is interrupted, what does the CPU do next in the diagram?",
       options: [
         "a) Requests IOP status",
@@ -11110,7 +11114,7 @@
       answer: "a) Requests IOP status"
     },
     {
-      page: 44,
+      page: 47,
       question: "What is the final action shown in the CPU—IOP Communication diagram before 'Continue'?",
       options: [
         "a) Check status word for correct transfer",
@@ -11121,9 +11125,9 @@
       answer: "a) Check status word for correct transfer"
     },
 
-    // PAGE 45 - Advantages of an IOP (1-3)
+    // PAGE 48 - Advantages of an IOP (1-3)
     {
-      page: 45,
+      page: 48,
       question: "How does an IOP offload the CPU from I/O tasks?",
       options: [
         "a) The CPU only initiates I/O operations while the IOP handles data transfers, enabling parallel processing",
@@ -11134,7 +11138,7 @@
       answer: "a) The CPU only initiates I/O operations while the IOP handles data transfers, enabling parallel processing"
     },
     {
-      page: 45,
+      page: 48,
       question: "What example illustrates parallel processing enabled by an IOP?",
       options: [
         "a) A server processes user requests while the IOP manages disk reads/writes",
@@ -11145,7 +11149,7 @@
       answer: "a) A server processes user requests while the IOP manages disk reads/writes"
     },
     {
-      page: 45,
+      page: 48,
       question: "What does DMA support in an IOP eliminate?",
       options: [
         "a) Per-byte CPU overhead",
@@ -11156,7 +11160,7 @@
       answer: "a) Per-byte CPU overhead"
     },
     {
-      page: 45,
+      page: 48,
       question: "What complex I/O operations can an IOP support, as an advantage?",
       options: [
         "a) Multi-step chained commands (e.g., SEEK → READ → VERIFY) with device-specific handling",
@@ -11167,9 +11171,9 @@
       answer: "a) Multi-step chained commands (e.g., SEEK → READ → VERIFY) with device-specific handling"
     },
 
-    // PAGE 46 - Advantages continued (4-6)
+    // PAGE 49 - Advantages continued (4-6)
     {
-      page: 46,
+      page: 49,
       question: "How does an IOP reduce system bottlenecks via Bus Arbitration?",
       options: [
         "a) It manages contention for the system bus with no CPU involvement",
@@ -11180,7 +11184,7 @@
       answer: "a) It manages contention for the system bus with no CPU involvement"
     },
     {
-      page: 46,
+      page: 49,
       question: "What does an IOP's buffering advantage smooth out?",
       options: [
         "a) Speed mismatches between fast CPUs and slow devices, e.g. keyboards",
@@ -11191,7 +11195,7 @@
       answer: "a) Speed mismatches between fast CPUs and slow devices, e.g. keyboards"
     },
     {
-      page: 46,
+      page: 49,
       question: "What does Scalability for Multiple Devices mean as an IOP advantage?",
       options: [
         "a) One IOP can manage multiple peripherals (disks, NICs, GPUs) and modern IOPs are hot-swappable",
@@ -11202,7 +11206,7 @@
       answer: "a) One IOP can manage multiple peripherals (disks, NICs, GPUs) and modern IOPs are hot-swappable"
     },
     {
-      page: 46,
+      page: 49,
       question: "How does an IOP contribute to Error Handling & Reliability?",
       options: [
         "a) Automatic retries on failure and status reporting that alerts the CPU only on critical events",
@@ -11589,7 +11593,7 @@
       answer: "a) Accessing data located close to recently accessed data"
     },
 
-    // PAGE 12 - Aspects of Memory Hierarchy (pyramid diagram)
+    // PAGE 12 - Memory Hierarchy pyramid diagram
     {
       page: 12,
       question: "According to the Memory Hierarchy pyramid, which level has the fastest access (about 1 cycle)?",
@@ -11634,8 +11638,10 @@
       ],
       answer: "a) Flash Disk, Traditional Disk, and Remote Secondary Storage"
     },
+
+    // PAGE 13 - Aspects of Memory Hierarchy
     {
-      page: 12,
+      page: 13,
       question: "Which of the following is listed as an aspect of Memory Hierarchy?",
       options: [
         "a) Persistence or Volatility",
@@ -11646,9 +11652,9 @@
       answer: "a) Persistence or Volatility"
     },
 
-    // PAGE 13 - Why memory hierarchy important
+    // PAGE 14 - Why memory hierarchy important
     {
-      page: 13,
+      page: 14,
       question: "How does Memory Hierarchy bridge the performance gap between processors and memory?",
       options: [
         "a) By placing faster, smaller memory closer to the CPU",
@@ -11659,7 +11665,7 @@
       answer: "a) By placing faster, smaller memory closer to the CPU"
     },
     {
-      page: 13,
+      page: 14,
       question: "How does Memory Hierarchy optimize system performance regarding data access frequency?",
       options: [
         "a) Frequently accessed data is stored in faster levels (registers, cache); less frequent data in larger, slower levels",
@@ -11670,7 +11676,7 @@
       answer: "a) Frequently accessed data is stored in faster levels (registers, cache); less frequent data in larger, slower levels"
     },
     {
-      page: 13,
+      page: 14,
       question: "How does Memory Hierarchy reduce CPU idle time?",
       options: [
         "a) Faster memory levels minimize the time the CPU waits for data",
@@ -11681,9 +11687,9 @@
       answer: "a) Faster memory levels minimize the time the CPU waits for data"
     },
 
-    // PAGE 14 - Memory Interfacing
+    // PAGE 15 - Memory Interfacing
     {
-      page: 14,
+      page: 15,
       question: "What is Memory Interfacing?",
       options: [
         "a) Connecting memory chips to a microprocessor so the CPU can read and write data properly",
@@ -11694,7 +11700,7 @@
       answer: "a) Connecting memory chips to a microprocessor so the CPU can read and write data properly"
     },
     {
-      page: 14,
+      page: 15,
       question: "Which of the following is part of how Memory Interfacing works?",
       options: [
         "a) Communication protocols like DDR and PCIe define how data is transferred",
@@ -11705,7 +11711,7 @@
       answer: "a) Communication protocols like DDR and PCIe define how data is transferred"
     },
     {
-      page: 14,
+      page: 15,
       question: "What role do Control Signals play in Memory Interfacing?",
       options: [
         "a) Signals like read/write and address lines coordinate data transfer",
@@ -11716,9 +11722,9 @@
       answer: "a) Signals like read/write and address lines coordinate data transfer"
     },
 
-    // PAGE 15 - EMAT definition + components
+    // PAGE 16 - EMAT definition + components
     {
-      page: 15,
+      page: 16,
       question: "What does EMAT (Effective Memory Access Time) represent?",
       options: [
         "a) The average time it takes for the computer system to access data from memory, considering hits, misses, and latency",
@@ -11729,7 +11735,7 @@
       answer: "a) The average time it takes for the computer system to access data from memory, considering hits, misses, and latency"
     },
     {
-      page: 15,
+      page: 16,
       question: "What is Cache Hit Rate?",
       options: [
         "a) The percentage of memory accesses where data is found in the cache",
@@ -11740,7 +11746,7 @@
       answer: "a) The percentage of memory accesses where data is found in the cache"
     },
     {
-      page: 15,
+      page: 16,
       question: "What is Cache Miss Penalty?",
       options: [
         "a) The additional time required to fetch data from main memory when a cache miss occurs",
@@ -11751,7 +11757,7 @@
       answer: "a) The additional time required to fetch data from main memory when a cache miss occurs"
     },
     {
-      page: 15,
+      page: 16,
       question: "If cache access time is 5 ns and main memory access time is 100 ns, what is the miss penalty according to the lecture's example?",
       options: [
         "a) 95 ns",
@@ -11762,9 +11768,9 @@
       answer: "a) 95 ns"
     },
 
-    // PAGE 16 - EMAT formula + factors
+    // PAGE 17 - EMAT formula + factors
     {
-      page: 16,
+      page: 17,
       question: "What is the formula for Effective Memory Access Time (EMAT) given in the lecture?",
       options: [
         "a) EMAT = (Cache Hit Rate × Cache Access Time) + (Cache Miss Rate × Cache Miss Penalty)",
@@ -11775,7 +11781,7 @@
       answer: "a) EMAT = (Cache Hit Rate × Cache Access Time) + (Cache Miss Rate × Cache Miss Penalty)"
     },
     {
-      page: 16,
+      page: 17,
       question: "How does Cache Size influence EMAT?",
       options: [
         "a) Larger caches improve hit rates but increase access time",
@@ -11786,7 +11792,7 @@
       answer: "a) Larger caches improve hit rates but increase access time"
     },
     {
-      page: 16,
+      page: 17,
       question: "What does TLB Hit Ratio measure, and how does it affect EMAT?",
       options: [
         "a) The percentage of time a virtual address translation is found in the TLB; a higher ratio significantly reduces EMAT",
@@ -11797,7 +11803,7 @@
       answer: "a) The percentage of time a virtual address translation is found in the TLB; a higher ratio significantly reduces EMAT"
     },
     {
-      page: 16,
+      page: 17,
       question: "What does Page Fault Rate represent as a factor influencing EMAT?",
       options: [
         "a) The probability that a required page is not in physical RAM, necessitating slow access to the hard disk",
@@ -11808,9 +11814,9 @@
       answer: "a) The probability that a required page is not in physical RAM, necessitating slow access to the hard disk"
     },
 
-    // PAGE 17 - Activity (numeric problems)
+    // PAGE 18 - Activity 1
     {
-      page: 17,
+      page: 18,
       question: "Given Cache Hit Rate = 0.92, Cache Access Time = 2 ns, Cache Miss Rate = 0.08, Cache Miss Penalty = 25 ns, what is the EMAT using the lecture's formula?",
       options: [
         "a) 3.84 ns",
@@ -11820,8 +11826,10 @@
       ],
       answer: "a) 3.84 ns"
     },
+
+    // PAGE 19 - Activity 2 & 3
     {
-      page: 17,
+      page: 19,
       question: "A cache memory needs an access time of 5 ns and main memory 100 ns; assuming a hit ratio of 95%, what is the average access time of the CPU?",
       options: [
         "a) 9.75 ns",
@@ -11832,7 +11840,7 @@
       answer: "a) 9.75 ns"
     },
     {
-      page: 17,
+      page: 19,
       question: "For a processor where a cache hit takes 4ns, a cache miss takes 70ns, and 90% of read requests are cache hits, what is the average read access time?",
       options: [
         "a) 10.6 ns",
@@ -11843,9 +11851,9 @@
       answer: "a) 10.6 ns"
     },
 
-    // PAGE 18 - Examples of EMAT Optimization
+    // PAGE 20 - Examples of EMAT Optimization
     {
-      page: 18,
+      page: 20,
       question: "Which domain uses tightly coupled memory and dedicated hardware accelerators to reduce EMAT for real-time sensor data, per the lecture?",
       options: [
         "a) Automotive ECUs (ADAS systems)",
@@ -11856,7 +11864,7 @@
       answer: "a) Automotive ECUs (ADAS systems)"
     },
     {
-      page: 18,
+      page: 20,
       question: "Which of the following is listed as an example domain where EMAT optimization matters?",
       options: [
         "a) High-Performance Computing (HPC)",
@@ -11867,9 +11875,9 @@
       answer: "a) High-Performance Computing (HPC)"
     },
 
-    // PAGE 19 - Overview of Caching
+    // PAGE 21 - Overview of Caching
     {
-      page: 19,
+      page: 21,
       question: "What is Caching, as defined in the lecture?",
       options: [
         "a) A technique to improve data access and retrieval speeds by storing copies of frequently accessed data in a faster, closer location",
@@ -11880,7 +11888,7 @@
       answer: "a) A technique to improve data access and retrieval speeds by storing copies of frequently accessed data in a faster, closer location"
     },
     {
-      page: 19,
+      page: 21,
       question: "What performance gap does caching bridge?",
       options: [
         "a) The gap between fast processors and slower memory systems",
@@ -11891,7 +11899,7 @@
       answer: "a) The gap between fast processors and slower memory systems"
     },
     {
-      page: 19,
+      page: 21,
       question: "Why is accessing data from cache faster than from the original source?",
       options: [
         "a) Due to the cache's proximity to the processor and higher access speeds",
@@ -11902,9 +11910,9 @@
       answer: "a) Due to the cache's proximity to the processor and higher access speeds"
     },
 
-    // PAGE 20 - Defining Cache Memory
+    // PAGE 22 - Defining Cache Memory
     {
-      page: 20,
+      page: 22,
       question: "How is Cache Memory defined?",
       options: [
         "a) A small, fast type of memory located close to the processor",
@@ -11915,7 +11923,7 @@
       answer: "a) A small, fast type of memory located close to the processor"
     },
     {
-      page: 20,
+      page: 22,
       question: "What role does Cache Memory act as, between the processor and main memory?",
       options: [
         "a) A temporary storage buffer",
@@ -11926,7 +11934,7 @@
       answer: "a) A temporary storage buffer"
     },
     {
-      page: 20,
+      page: 22,
       question: "What concept does Cache Memory exploit to optimize performance?",
       options: [
         "a) Locality of reference",
@@ -11937,9 +11945,9 @@
       answer: "a) Locality of reference"
     },
 
-    // PAGE 21 - Locality (temporal, spatial)
+    // PAGE 23 - Locality (temporal, spatial)
     {
-      page: 21,
+      page: 23,
       question: "What does Temporal Locality mean in the context of cache memory?",
       options: [
         "a) Certain data is accessed repeatedly over a short period",
@@ -11950,7 +11958,7 @@
       answer: "a) Certain data is accessed repeatedly over a short period"
     },
     {
-      page: 21,
+      page: 23,
       question: "What does Spatial Locality involve, as explained with the array/list example?",
       options: [
         "a) Accessing a sequence of data elements physically close to each other in memory",
@@ -11961,7 +11969,7 @@
       answer: "a) Accessing a sequence of data elements physically close to each other in memory"
     },
     {
-      page: 21,
+      page: 23,
       question: "How does the cache benefit from Spatial Locality when traversing an array?",
       options: [
         "a) It can load consecutively aligned memory locations efficiently in one go",
@@ -11972,9 +11980,9 @@
       answer: "a) It can load consecutively aligned memory locations efficiently in one go"
     },
 
-    // PAGE 22 - Levels of Cache
+    // PAGE 24 - Levels of Cache
     {
-      page: 22,
+      page: 24,
       question: "Which cache level is described as smallest and fastest, integrated directly into the CPU?",
       options: [
         "a) L1 Cache",
@@ -11985,7 +11993,7 @@
       answer: "a) L1 Cache"
     },
     {
-      page: 22,
+      page: 24,
       question: "Which cache level is largest but slowest among the three, and is shared across all cores?",
       options: [
         "a) L3 Cache",
@@ -11996,7 +12004,7 @@
       answer: "a) L3 Cache"
     },
     {
-      page: 22,
+      page: 24,
       question: "In the ARM Cortex-A78 example, what is the approximate access latency of the L1 Data cache?",
       options: [
         "a) 1-2 cycles",
@@ -12007,7 +12015,7 @@
       answer: "a) 1-2 cycles"
     },
     {
-      page: 22,
+      page: 24,
       question: "In the ARM Cortex-A78 example, what does the L3 Cache primarily catch?",
       options: [
         "a) Misses from L2",
@@ -12018,9 +12026,9 @@
       answer: "a) Misses from L2"
     },
 
-    // PAGE 23 - Specialized caches
+    // PAGE 25 - Specialized caches
     {
-      page: 23,
+      page: 25,
       question: "What is the function of a Translation Lookaside Buffer (TLB)?",
       options: [
         "a) It maps virtual addresses to physical addresses, facilitating quicker data retrieval",
@@ -12031,7 +12039,7 @@
       answer: "a) It maps virtual addresses to physical addresses, facilitating quicker data retrieval"
     },
     {
-      page: 23,
+      page: 25,
       question: "What do Disk Caches use to store frequently accessed disk data?",
       options: [
         "a) DRAM or flash memory",
@@ -12042,7 +12050,7 @@
       answer: "a) DRAM or flash memory"
     },
     {
-      page: 23,
+      page: 25,
       question: "Where can specialized caches for applications like web browsers, databases, and network protocols be distributed?",
       options: [
         "a) Across multiple networked hosts, enhancing scalability and performance",
@@ -12053,9 +12061,9 @@
       answer: "a) Across multiple networked hosts, enhancing scalability and performance"
     },
 
-    // PAGE 24 - How Caching Works
+    // PAGE 26 - How Caching Works
     {
-      page: 24,
+      page: 26,
       question: "In the Data Access Process, where does the processor start checking the cache hierarchy?",
       options: [
         "a) L1",
@@ -12066,7 +12074,7 @@
       answer: "a) L1"
     },
     {
-      page: 24,
+      page: 26,
       question: "What is a Cache Hit?",
       options: [
         "a) When the requested data is found in the cache, reducing access time",
@@ -12077,7 +12085,7 @@
       answer: "a) When the requested data is found in the cache, reducing access time"
     },
     {
-      page: 24,
+      page: 26,
       question: "What happens on a Cache Miss?",
       options: [
         "a) Data is fetched from main memory, introducing additional latency (the cache miss penalty)",
@@ -12088,7 +12096,7 @@
       answer: "a) Data is fetched from main memory, introducing additional latency (the cache miss penalty)"
     },
     {
-      page: 24,
+      page: 26,
       question: "How does the cache dynamically identify and store frequently accessed data?",
       options: [
         "a) Based on access patterns, using caching strategies and replacement policies",
@@ -12099,9 +12107,9 @@
       answer: "a) Based on access patterns, using caching strategies and replacement policies"
     },
 
-    // PAGE 25 - Data writing policies (Write-through, Write-back)
+    // PAGE 27 - Data writing policies (Write-through, Write-back)
     {
-      page: 25,
+      page: 27,
       question: "In the Write-Through caching policy, how is data updated?",
       options: [
         "a) Simultaneously in both the cache and the main memory",
@@ -12112,7 +12120,7 @@
       answer: "a) Simultaneously in both the cache and the main memory"
     },
     {
-      page: 25,
+      page: 27,
       question: "What is a drawback of the Write-Through policy?",
       options: [
         "a) It often results in latency increase due to the double-write requirement",
@@ -12123,7 +12131,7 @@
       answer: "a) It often results in latency increase due to the double-write requirement"
     },
     {
-      page: 25,
+      page: 27,
       question: "In the Write-Back caching policy, where is data initially written?",
       options: [
         "a) Only to the cache; it is later pushed to main memory if needed",
@@ -12134,7 +12142,7 @@
       answer: "a) Only to the cache; it is later pushed to main memory if needed"
     },
     {
-      page: 25,
+      page: 27,
       question: "What is a risk associated with the Write-Back policy?",
       options: [
         "a) Occasional inconsistencies between cache and main memory",
@@ -12145,9 +12153,9 @@
       answer: "a) Occasional inconsistencies between cache and main memory"
     },
 
-    // PAGE 26 - Caching in Real-World Systems
+    // PAGE 28 - Caching in Real-World Systems
     {
-      page: 26,
+      page: 28,
       question: "What do Content Delivery Networks (CDNs) like Cloudflare and Akamai use to reduce latency?",
       options: [
         "a) Edge caching to store copies of content closer to users",
@@ -12158,7 +12166,7 @@
       answer: "a) Edge caching to store copies of content closer to users"
     },
     {
-      page: 26,
+      page: 28,
       question: "What do databases like MySQL and Redis use query caching for?",
       options: [
         "a) To store results of frequently executed queries, improving response times",
@@ -12169,7 +12177,7 @@
       answer: "a) To store results of frequently executed queries, improving response times"
     },
     {
-      page: 26,
+      page: 28,
       question: "How do gaming consoles like the PlayStation 5 and Xbox Series X use caching?",
       options: [
         "a) Custom SSDs and high-speed memory cache game assets for faster loading and rendering",
@@ -12180,9 +12188,9 @@
       answer: "a) Custom SSDs and high-speed memory cache game assets for faster loading and rendering"
     },
 
-    // PAGE 27 - Emerging Cache Types
+    // PAGE 29 - Emerging Cache Types
     {
-      page: 27,
+      page: 29,
       question: "What does Non-Volatile Cache (NVM) replace power-hungry SRAM with?",
       options: [
         "a) High-density, non-volatile memory like STT-MRAM or SOT-MRAM",
@@ -12193,7 +12201,7 @@
       answer: "a) High-density, non-volatile memory like STT-MRAM or SOT-MRAM"
     },
     {
-      page: 27,
+      page: 29,
       question: "What is an Approximate Cache designed to do?",
       options: [
         "a) Be intentionally 'imprecise' with less important data (e.g., image pixels) for massive energy savings",
@@ -12204,7 +12212,7 @@
       answer: "a) Be intentionally 'imprecise' with less important data (e.g., image pixels) for massive energy savings"
     },
     {
-      page: 27,
+      page: 29,
       question: "What does a Hybrid Cache (SRAM + NVM) combine?",
       options: [
         "a) Fast, durable SRAM with dense, energy-efficient NVM",
@@ -12215,7 +12223,7 @@
       answer: "a) Fast, durable SRAM with dense, energy-efficient NVM"
     },
     {
-      page: 27,
+      page: 29,
       question: "What does CXL & Tiered Caching use to efficiently use far memory (like SSDs) as a large, slow cache layer?",
       options: [
         "a) A new high-speed interconnect (CXL)",
@@ -12226,7 +12234,7 @@
       answer: "a) A new high-speed interconnect (CXL)"
     },
     {
-      page: 27,
+      page: 29,
       question: "What three components make up the TDV Cache (Fusion Cache) design mentioned in the lecture?",
       options: [
         "a) Direct-mapped (fast) + victim cache (high hit rate) + tag cache (efficient)",
@@ -12237,9 +12245,9 @@
       answer: "a) Direct-mapped (fast) + victim cache (high hit rate) + tag cache (efficient)"
     },
 
-    // PAGE 28 - Virtual Memory definition
+    // PAGE 30 - Virtual Memory definition
     {
-      page: 28,
+      page: 30,
       question: "How is Virtual Memory defined?",
       options: [
         "a) A memory management technique that combines RAM and secondary storage to create an expanded memory address space",
@@ -12250,7 +12258,7 @@
       answer: "a) A memory management technique that combines RAM and secondary storage to create an expanded memory address space"
     },
     {
-      page: 28,
+      page: 30,
       question: "What is the key mechanism of Virtual Memory?",
       options: [
         "a) Demand paging and address translation to map virtual addresses to physical locations",
@@ -12261,9 +12269,9 @@
       answer: "a) Demand paging and address translation to map virtual addresses to physical locations"
     },
 
-    // PAGE 29 - Two Main Components for Implementation
+    // PAGE 31 - Two Main Components for Implementation
     {
-      page: 29,
+      page: 31,
       question: "What is the Memory Management Unit (MMU)?",
       options: [
         "a) A hardware unit built into the CPU that performs address translation on the fly for every memory access",
@@ -12274,7 +12282,7 @@
       answer: "a) A hardware unit built into the CPU that performs address translation on the fly for every memory access"
     },
     {
-      page: 29,
+      page: 31,
       question: "What role does the Operating System (OS) play in Virtual Memory implementation?",
       options: [
         "a) Manages page tables, handles page faults, and decides which pages stay in RAM vs. moved to disk",
@@ -12285,9 +12293,9 @@
       answer: "a) Manages page tables, handles page faults, and decides which pages stay in RAM vs. moved to disk"
     },
 
-    // PAGE 30 - How a Virtual Address is Translated
+    // PAGE 32 - Virtual Address Translation, part 1 (splitting page number & offset)
     {
-      page: 30,
+      page: 32,
       question: "Given a page size of 4KB (2^12 bytes) and a 16-bit logical address, how many bits are used for the offset?",
       options: [
         "a) 12 bits",
@@ -12298,7 +12306,7 @@
       answer: "a) 12 bits"
     },
     {
-      page: 30,
+      page: 32,
       question: "For logical address 0x3A7F with a 12-bit offset and 4-bit page number, what is the Page Number in decimal?",
       options: [
         "a) 3",
@@ -12308,8 +12316,10 @@
       ],
       answer: "a) 3"
     },
+
+    // PAGE 33 - Virtual Address Translation, part 2 (page table lookup & physical address)
     {
-      page: 30,
+      page: 33,
       question: "Using the page table where Page 3 maps to Frame 1, and offset 0xA7F, what is the resulting physical address?",
       options: [
         "a) 0x1A7F",
@@ -12320,7 +12330,7 @@
       answer: "a) 0x1A7F"
     },
     {
-      page: 30,
+      page: 33,
       question: "In translating a virtual address, what is the correct order of steps described in the lecture?",
       options: [
         "a) Split into page number & offset, look up the page table, then construct the physical address",
@@ -12331,9 +12341,9 @@
       answer: "a) Split into page number & offset, look up the page table, then construct the physical address"
     },
 
-    // PAGE 31 - Page Table Entry (PTE) components
+    // PAGE 34 - Page Table Entry (PTE) components
     {
-      page: 31,
+      page: 34,
       question: "What does the Valid bit in a Page Table Entry (PTE) indicate?",
       options: [
         "a) Whether the page is in RAM (1) or on disk (0)",
@@ -12344,7 +12354,7 @@
       answer: "a) Whether the page is in RAM (1) or on disk (0)"
     },
     {
-      page: 31,
+      page: 34,
       question: "What does the Dirty bit in a PTE indicate?",
       options: [
         "a) Whether the page has been modified while in RAM",
@@ -12355,7 +12365,7 @@
       answer: "a) Whether the page has been modified while in RAM"
     },
     {
-      page: 31,
+      page: 34,
       question: "What does the Referenced bit in a PTE indicate?",
       options: [
         "a) Whether the page has been accessed recently",
@@ -12366,7 +12376,7 @@
       answer: "a) Whether the page has been accessed recently"
     },
     {
-      page: 31,
+      page: 34,
       question: "Which of the following is included in a Page Table Entry, aside from valid, dirty, and referenced bits?",
       options: [
         "a) Protection bits (read, write, execute permissions) and a Physical Page Number",
@@ -12377,9 +12387,9 @@
       answer: "a) Protection bits (read, write, execute permissions) and a Physical Page Number"
     },
 
-    // PAGE 32 - Benefits of Virtual Memory (1-2)
+    // PAGE 35 - Benefits of Virtual Memory (1-2)
     {
-      page: 32,
+      page: 35,
       question: "How does Virtual Memory support Large Program execution?",
       options: [
         "a) It enables execution of programs larger than physical memory by storing and managing data on disk",
@@ -12390,7 +12400,7 @@
       answer: "a) It enables execution of programs larger than physical memory by storing and managing data on disk"
     },
     {
-      page: 32,
+      page: 35,
       question: "What modern development is mentioned alongside Large Program Support?",
       options: [
         "a) Memory compression before swapping",
@@ -12401,7 +12411,7 @@
       answer: "a) Memory compression before swapping"
     },
     {
-      page: 32,
+      page: 35,
       question: "How does Virtual Memory facilitate Advanced Multitasking?",
       options: [
         "a) Each program can have its own virtual memory space, isolating it from other programs",
@@ -12412,7 +12422,7 @@
       answer: "a) Each program can have its own virtual memory space, isolating it from other programs"
     },
     {
-      page: 32,
+      page: 35,
       question: "What new feature is mentioned related to Advanced Multitasking under Virtual Memory?",
       options: [
         "a) Memory deduplication (KSM in Linux)",
@@ -12423,9 +12433,9 @@
       answer: "a) Memory deduplication (KSM in Linux)"
     },
 
-    // PAGE 33 - Benefits of Virtual Memory (3-5)
+    // PAGE 36 - Benefits of Virtual Memory (3-5)
     {
-      page: 33,
+      page: 36,
       question: "How does Virtual Memory provide Enhanced Memory Protection?",
       options: [
         "a) By assigning memory spaces to different processes, ensuring each can only access its allocated memory",
@@ -12436,7 +12446,7 @@
       answer: "a) By assigning memory spaces to different processes, ensuring each can only access its allocated memory"
     },
     {
-      page: 33,
+      page: 36,
       question: "Which example is given for Enhanced Memory Protection provided by Virtual Memory?",
       options: [
         "a) Protection against Meltdown/Spectre vulnerabilities",
@@ -12447,7 +12457,7 @@
       answer: "a) Protection against Meltdown/Spectre vulnerabilities"
     },
     {
-      page: 33,
+      page: 36,
       question: "How does Virtual Memory achieve Efficiency Optimizations?",
       options: [
         "a) By keeping only the most frequently used data in physical memory and swapping less-used data to disk",
@@ -12458,7 +12468,7 @@
       answer: "a) By keeping only the most frequently used data in physical memory and swapping less-used data to disk"
     },
     {
-      page: 33,
+      page: 36,
       question: "What example illustrates Efficiency Optimizations under Virtual Memory?",
       options: [
         "a) Android's LMKD (Low Memory Killer Daemon) improvements",
@@ -12469,7 +12479,7 @@
       answer: "a) Android's LMKD (Low Memory Killer Daemon) improvements"
     },
     {
-      page: 33,
+      page: 36,
       question: "What Programming Advantage does Virtual Memory provide?",
       options: [
         "a) It simplifies programming by providing a consistent and uniform memory model for applications",
@@ -12480,7 +12490,7 @@
       answer: "a) It simplifies programming by providing a consistent and uniform memory model for applications"
     },
     {
-      page: 33,
+      page: 36,
       question: "Which example is given for the Programming Advantages of Virtual Memory?",
       options: [
         "a) mmap() for fast database access",
@@ -12491,9 +12501,9 @@
       answer: "a) mmap() for fast database access"
     },
 
-    // PAGE 34 - Page Faults and Swapping (types)
+    // PAGE 37 - Page Faults and Swapping (types)
     {
-      page: 34,
+      page: 37,
       question: "What is a Page Fault?",
       options: [
         "a) An error-like event that occurs when a program tries to access data not currently located in RAM",
@@ -12504,7 +12514,7 @@
       answer: "a) An error-like event that occurs when a program tries to access data not currently located in RAM"
     },
     {
-      page: 34,
+      page: 37,
       question: "What is a Minor Fault?",
       options: [
         "a) The page is in RAM but not mapped, allowing fast resolution",
@@ -12515,7 +12525,7 @@
       answer: "a) The page is in RAM but not mapped, allowing fast resolution"
     },
     {
-      page: 34,
+      page: 37,
       question: "What is a Major Fault?",
       options: [
         "a) The page must be loaded from disk (slow, ~10-50µs on NVMe)",
@@ -12526,7 +12536,7 @@
       answer: "a) The page must be loaded from disk (slow, ~10-50µs on NVMe)"
     },
     {
-      page: 34,
+      page: 37,
       question: "What is an Invalid Fault?",
       options: [
         "a) An illegal access",
@@ -12537,9 +12547,9 @@
       answer: "a) An illegal access"
     },
 
-    // PAGE 35 - Handling the Page Fault steps
+    // PAGE 38 - Handling the Page Fault steps
     {
-      page: 35,
+      page: 38,
       question: "What is the first step in handling a page fault?",
       options: [
         "a) The internal table (process control block) determines whether the reference was valid or invalid",
@@ -12550,7 +12560,7 @@
       answer: "a) The internal table (process control block) determines whether the reference was valid or invalid"
     },
     {
-      page: 35,
+      page: 38,
       question: "What happens if the memory reference causing a page fault is determined to be invalid?",
       options: [
         "a) The process is terminated",
@@ -12561,7 +12571,7 @@
       answer: "a) The process is terminated"
     },
     {
-      page: 35,
+      page: 38,
       question: "After locating a free frame during page fault handling, what disk operation is scheduled?",
       options: [
         "a) A disk operation to read the desired page into the newly allocated frame",
@@ -12572,7 +12582,7 @@
       answer: "a) A disk operation to read the desired page into the newly allocated frame"
     },
     {
-      page: 35,
+      page: 38,
       question: "What is the final step in handling a page fault?",
       options: [
         "a) Restart the instruction that was interrupted due to the trap",
@@ -12583,9 +12593,9 @@
       answer: "a) Restart the instruction that was interrupted due to the trap"
     },
 
-    // PAGE 36 - Swapping
+    // PAGE 39 - Swapping
     {
-      page: 36,
+      page: 39,
       question: "When does Swapping occur?",
       options: [
         "a) When the system doesn't have enough RAM space and needs to move unused data to swap space on disk",
@@ -12596,7 +12606,7 @@
       answer: "a) When the system doesn't have enough RAM space and needs to move unused data to swap space on disk"
     },
     {
-      page: 36,
+      page: 39,
       question: "In the example with processes P1 and P2, what does the OS do when P2 needs to execute but there isn't enough RAM?",
       options: [
         "a) Swaps out P1 to secondary memory to free physical memory for P2",
@@ -12607,7 +12617,7 @@
       answer: "a) Swaps out P1 to secondary memory to free physical memory for P2"
     },
     {
-      page: 36,
+      page: 39,
       question: "What allows a user to run multiple programs at once even without enough RAM, according to the Swapping explanation?",
       options: [
         "a) The process of interchanging data between RAM and swap space",
@@ -12618,9 +12628,9 @@
       answer: "a) The process of interchanging data between RAM and swap space"
     },
 
-    // PAGE 37 - Demand Paging
+    // PAGE 41 - Demand Paging
     {
-      page: 37,
+      page: 41,
       question: "What is Demand Paging?",
       options: [
         "a) An optimization where pages of a process are loaded into memory only when needed, not all at once at start",
@@ -12631,7 +12641,7 @@
       answer: "a) An optimization where pages of a process are loaded into memory only when needed, not all at once at start"
     },
     {
-      page: 37,
+      page: 41,
       question: "What happens if the physical memory frames are full while loading a new page under demand paging?",
       options: [
         "a) The OS uses page replacement algorithms to decide which pages to remove to make space",
@@ -12642,9 +12652,9 @@
       answer: "a) The OS uses page replacement algorithms to decide which pages to remove to make space"
     },
 
-    // PAGE 38 - How demand paging works (steps)
+    // PAGE 43 - How demand paging works (steps)
     {
-      page: 38,
+      page: 43,
       question: "In the demand paging example, what happens when the CPU requests Page 2 and it is not found in the page table?",
       options: [
         "a) A page fault occurs",
@@ -12655,7 +12665,7 @@
       answer: "a) A page fault occurs"
     },
     {
-      page: 38,
+      page: 43,
       question: "During Page Fault Handling in the demand paging example, what does the OS do?",
       options: [
         "a) Locates Page 2 on the disk and finds a free frame in main memory",
@@ -12666,7 +12676,7 @@
       answer: "a) Locates Page 2 on the disk and finds a free frame in main memory"
     },
     {
-      page: 38,
+      page: 43,
       question: "After the OS loads Page 2 from disk into a free frame, what is updated?",
       options: [
         "a) The page table, with the new frame number for Page 2",
@@ -12677,7 +12687,7 @@
       answer: "a) The page table, with the new frame number for Page 2"
     },
     {
-      page: 38,
+      page: 43,
       question: "What is the final step (Resuming the Process) in the demand paging workflow?",
       options: [
         "a) The CPU is notified Page 2 is now in memory, and the process continues executing",
@@ -12688,9 +12698,9 @@
       answer: "a) The CPU is notified Page 2 is now in memory, and the process continues executing"
     },
 
-    // PAGE 39 - Paging vs. Segmentation (table)
+    // PAGE 44 - Paging vs. Segmentation (table)
     {
-      page: 39,
+      page: 44,
       question: "According to the Paging vs. Segmentation table, what is the Block Size characteristic of Paging?",
       options: [
         "a) Fixed-size pages",
@@ -12701,7 +12711,7 @@
       answer: "a) Fixed-size pages"
     },
     {
-      page: 39,
+      page: 44,
       question: "According to the table, who manages Segmentation's segment sizes and addresses?",
       options: [
         "a) The compiler",
@@ -12712,7 +12722,7 @@
       answer: "a) The compiler"
     },
     {
-      page: 39,
+      page: 44,
       question: "According to the table, which technique has faster memory access: Paging or Segmentation?",
       options: [
         "a) Paging",
@@ -12723,7 +12733,7 @@
       answer: "a) Paging"
     },
     {
-      page: 39,
+      page: 44,
       question: "According to the table, what type of fragmentation is associated with Paging?",
       options: [
         "a) Internal fragmentation (underutilized pages)",
@@ -12734,7 +12744,7 @@
       answer: "a) Internal fragmentation (underutilized pages)"
     },
     {
-      page: 39,
+      page: 44,
       question: "According to the table, what type of fragmentation is associated with Segmentation?",
       options: [
         "a) External fragmentation (unused memory gaps)",
@@ -12745,7 +12755,7 @@
       answer: "a) External fragmentation (unused memory gaps)"
     },
     {
-      page: 39,
+      page: 44,
       question: "According to the table, what lookup table does Segmentation use?",
       options: [
         "a) Segment table (base address + length)",
@@ -12756,9 +12766,9 @@
       answer: "a) Segment table (base address + length)"
     },
 
-    // PAGE 40 - Virtual Memory Performance: Page Table Optimizations
+    // PAGE 46 - Virtual Memory Performance: Page Table Optimizations
     {
-      page: 40,
+      page: 46,
       question: "What do Multi-Level Page Tables (Hierarchical Paging) do to save memory?",
       options: [
         "a) Break the table into smaller, tree-structured pages, allocating lower-level tables only when needed",
@@ -12769,7 +12779,7 @@
       answer: "a) Break the table into smaller, tree-structured pages, allocating lower-level tables only when needed"
     },
     {
-      page: 40,
+      page: 46,
       question: "What is an Inverted Page Table?",
       options: [
         "a) A single table for the entire system containing entries only for physical frames, reducing memory footprint",
@@ -12780,7 +12790,7 @@
       answer: "a) A single table for the entire system containing entries only for physical frames, reducing memory footprint"
     },
     {
-      page: 40,
+      page: 46,
       question: "What does the Translation Lookaside Buffer (TLB) do as a page table optimization?",
       options: [
         "a) It is a high-speed hardware cache storing recent virtual-to-physical address translations, reducing page table lookups",
@@ -12791,9 +12801,9 @@
       answer: "a) It is a high-speed hardware cache storing recent virtual-to-physical address translations, reducing page table lookups"
     },
 
-    // PAGE 41 - Page Replacement Algorithms
+    // PAGE 47 - Page Replacement Algorithms
     {
-      page: 41,
+      page: 47,
       question: "How does the First In First Out (FIFO) page replacement algorithm work, and what issue can it suffer from?",
       options: [
         "a) It replaces the oldest loaded page and can suffer from Belady's Anomaly",
@@ -12804,7 +12814,7 @@
       answer: "a) It replaces the oldest loaded page and can suffer from Belady's Anomaly"
     },
     {
-      page: 41,
+      page: 47,
       question: "What does Optimal Page Replacement (OPR) select, and why is it largely theoretical?",
       options: [
         "a) The page not used for the longest period in the future; it requires future knowledge of page requests",
@@ -12815,7 +12825,7 @@
       answer: "a) The page not used for the longest period in the future; it requires future knowledge of page requests"
     },
     {
-      page: 41,
+      page: 47,
       question: "What does Least Recently Used (LRU) page replacement do?",
       options: [
         "a) Replaces the page that hasn't been accessed for the longest time, assuming recently used pages will be used again",
@@ -12826,7 +12836,7 @@
       answer: "a) Replaces the page that hasn't been accessed for the longest time, assuming recently used pages will be used again"
     },
     {
-      page: 41,
+      page: 47,
       question: "What does Most Recently Used (MRU) page replacement do?",
       options: [
         "a) Replaces the page that was accessed most recently",
@@ -12837,7 +12847,7 @@
       answer: "a) Replaces the page that was accessed most recently"
     },
     {
-      page: 41,
+      page: 47,
       question: "What does Least Frequently Used (LFU) page replacement do?",
       options: [
         "a) Replaces the page with the lowest access count",
@@ -12848,9 +12858,9 @@
       answer: "a) Replaces the page with the lowest access count"
     },
 
-    // PAGE 42 - Disk I/O Overhead Mitigation + Security Enhancements
+    // PAGE 48 - Disk I/O Overhead Mitigation + Security Enhancements
     {
-      page: 42,
+      page: 48,
       question: "Why can excessive page faults lead to performance degradation?",
       options: [
         "a) Accessing data from secondary storage is slower than accessing data from RAM",
@@ -12861,7 +12871,7 @@
       answer: "a) Accessing data from secondary storage is slower than accessing data from RAM"
     },
     {
-      page: 42,
+      page: 48,
       question: "What speed advantage do NVMe and Optane storage offer compared to HDDs, per the lecture?",
       options: [
         "a) Faster than HDDs (~10µs vs. 10ms)",
@@ -12872,7 +12882,7 @@
       answer: "a) Faster than HDDs (~10µs vs. 10ms)"
     },
     {
-      page: 42,
+      page: 48,
       question: "What do Zswap/ZRAM do to mitigate disk I/O overhead?",
       options: [
         "a) Compress pages in RAM before swapping",
@@ -12883,7 +12893,7 @@
       answer: "a) Compress pages in RAM before swapping"
     },
     {
-      page: 42,
+      page: 48,
       question: "What does Memory Tagging (ARM MTE) detect as a security enhancement?",
       options: [
         "a) Buffer overflows",
@@ -12894,7 +12904,7 @@
       answer: "a) Buffer overflows"
     },
     {
-      page: 42,
+      page: 48,
       question: "What does KASLR (Kernel ASLR) do as a security enhancement?",
       options: [
         "a) Randomizes kernel memory layout",
@@ -12911,7 +12921,7 @@
   title: "Interrupts",
   pdfUrl: "CSCI_12532_Lecture_10.pdf",
   questions: [
-    // ==================== PAGE 3 - AN INTERRUPT (Intro / Printer example / Diagram) ====================
+    // ==================== PAGE 3 - AN INTERRUPT (Intro / Printer example) ====================
     {
       page: 3,
       question: "In the printer example used to introduce interrupts, why does the processor have to pause after each write operation?",
@@ -12945,8 +12955,10 @@
       ],
       answer: "b) It is a very wasteful use of the processor"
     },
+
+    // ==================== PAGE 4 - Interrupt vs. No interrupt (diagrams) ====================
     {
-      page: 3,
+      page: 4,
       question: "In the 'No interrupts' diagram, what must the User Program do after issuing a WRITE instruction?",
       options: [
         "a) Continue to the next instruction immediately",
@@ -12957,7 +12969,7 @@
       answer: "b) Wait (poll/check) until the I/O Program signals completion via the I/O Command and END steps"
     },
     {
-      page: 3,
+      page: 4,
       question: "In the 'Interrupts, short I/O wait' diagram, what happens between steps 2a and 2b / 3a and 3b (marked with an X)?",
       options: [
         "a) The user program is permanently terminated",
@@ -12968,7 +12980,7 @@
       answer: "b) The processor is interrupted briefly and control passes to the Interrupt Handler instead of continuously waiting"
     },
     {
-      page: 3,
+      page: 4,
       question: "What is the key advantage shown by comparing the 'No interrupts' diagram with the 'Interrupts, short I/O wait' diagram?",
       options: [
         "a) Interrupts allow the user program to continue with other work while I/O completes, reducing wasted CPU wait time",
@@ -12979,9 +12991,9 @@
       answer: "a) Interrupts allow the user program to continue with other work while I/O completes, reducing wasted CPU wait time"
     },
 
-    // ==================== PAGE 4 - What is an interrupt? ====================
+    // ==================== PAGE 5 - What is an interrupt? ====================
     {
-      page: 4,
+      page: 5,
       question: "What is an interrupt, as defined in the lecture?",
       options: [
         "a) A permanent stop of the CPU",
@@ -12992,7 +13004,7 @@
       answer: "b) A signal or request that prompts the processor to temporarily halt its current operations and execute a specific task or service"
     },
     {
-      page: 4,
+      page: 5,
       question: "What kinds of events allow the CPU to respond via interrupts, according to the definition?",
       options: [
         "a) Only keyboard presses",
@@ -13003,7 +13015,7 @@
       answer: "b) Events or conditions requiring immediate attention, such as input/output operations or hardware malfunctions"
     },
     {
-      page: 4,
+      page: 5,
       question: "How do interrupts help ensure efficient system performance?",
       options: [
         "a) By enabling the processor to handle critical tasks without continuously polling for events",
@@ -13014,9 +13026,9 @@
       answer: "a) By enabling the processor to handle critical tasks without continuously polling for events"
     },
 
-    // ==================== PAGE 5 - What is polling? (definition + advantages) ====================
+    // ==================== PAGE 6 - What is polling? (definition + advantages) ====================
     {
-      page: 5,
+      page: 6,
       question: "What is polling?",
       options: [
         "a) A method where a device continuously checks the status of another device to determine if it needs attention",
@@ -13027,7 +13039,7 @@
       answer: "a) A method where a device continuously checks the status of another device to determine if it needs attention"
     },
     {
-      page: 5,
+      page: 6,
       question: "What process does polling involve?",
       options: [
         "a) Sending requests or queries, waiting for a response, and repeating this process in a loop until the desired condition or data is obtained",
@@ -13038,7 +13050,7 @@
       answer: "a) Sending requests or queries, waiting for a response, and repeating this process in a loop until the desired condition or data is obtained"
     },
     {
-      page: 5,
+      page: 6,
       question: "Which of the following is an advantage of polling related to ease of implementation?",
       options: [
         "a) Simplicity — it is a simpler mechanism to implement with straightforward control",
@@ -13049,7 +13061,7 @@
       answer: "a) Simplicity — it is a simpler mechanism to implement with straightforward control"
     },
     {
-      page: 5,
+      page: 6,
       question: "Why is polling described as having good 'Compatibility'?",
       options: [
         "a) It only works with modern processors",
@@ -13060,7 +13072,7 @@
       answer: "b) It can work on systems that do not support interrupt-driven mechanisms, making it widely applicable across platforms"
     },
     {
-      page: 5,
+      page: 6,
       question: "Why is polling considered 'Predictable'?",
       options: [
         "a) Because it checks for data at regular intervals, so behavior can be fine-tuned for specific performance requirements",
@@ -13071,9 +13083,9 @@
       answer: "a) Because it checks for data at regular intervals, so behavior can be fine-tuned for specific performance requirements"
     },
 
-    // ==================== PAGE 6 - Disadvantages of polling ====================
+    // ==================== PAGE 7 - Disadvantages of polling ====================
     {
-      page: 6,
+      page: 7,
       question: "Why is polling described as 'Resource Intensive'?",
       options: [
         "a) Constantly checking for data or events consumes system resources, including CPU cycles, leading to inefficiency and wasted power",
@@ -13084,7 +13096,7 @@
       answer: "a) Constantly checking for data or events consumes system resources, including CPU cycles, leading to inefficiency and wasted power"
     },
     {
-      page: 6,
+      page: 7,
       question: "What latency problem can occur with polling?",
       options: [
         "a) There can be a delay between the occurrence of an event and the system detecting it, especially if the polling interval is long",
@@ -13095,7 +13107,7 @@
       answer: "a) There can be a delay between the occurrence of an event and the system detecting it, especially if the polling interval is long"
     },
     {
-      page: 6,
+      page: 7,
       question: "Why may polling be unsuitable for real-time systems?",
       options: [
         "a) Real-time applications require immediate responses to critical events, which polling struggles to provide efficiently",
@@ -13106,9 +13118,9 @@
       answer: "a) Real-time applications require immediate responses to critical events, which polling struggles to provide efficiently"
     },
 
-    // ==================== PAGE 7 - When to use Polling vs Interrupts ====================
+    // ==================== PAGE 8 - When to use Polling vs Interrupts ====================
     {
-      page: 7,
+      page: 8,
       question: "When is polling considered ideal?",
       options: [
         "a) For events that occur at consistent and predictable intervals, and simple applications where constant checking doesn't significantly impact performance",
@@ -13119,7 +13131,7 @@
       answer: "a) For events that occur at consistent and predictable intervals, and simple applications where constant checking doesn't significantly impact performance"
     },
     {
-      page: 7,
+      page: 8,
       question: "When are interrupts more ideal than polling?",
       options: [
         "a) When immediate responses to external events are critical, such as in real-time systems and event-driven applications with variable event timing",
@@ -13130,9 +13142,9 @@
       answer: "a) When immediate responses to external events are critical, such as in real-time systems and event-driven applications with variable event timing"
     },
 
-    // ==================== PAGE 8 - Interrupt vs Polling comparison table ====================
+    // ==================== PAGE 9 - Interrupt vs Polling comparison table ====================
     {
-      page: 8,
+      page: 9,
       question: "According to the comparison table, how is 'Efficiency' rated for interrupts versus polling?",
       options: [
         "a) Interrupts are efficient (only activate when needed); polling is inefficient (checks even if no change)",
@@ -13143,7 +13155,7 @@
       answer: "a) Interrupts are efficient (only activate when needed); polling is inefficient (checks even if no change)"
     },
     {
-      page: 8,
+      page: 9,
       question: "How does the comparison table describe the 'Timing' characteristic of interrupts versus polling?",
       options: [
         "a) Interrupts are less predictable (depend on the event); polling is predictable (fixed intervals)",
@@ -13154,7 +13166,7 @@
       answer: "a) Interrupts are less predictable (depend on the event); polling is predictable (fixed intervals)"
     },
     {
-      page: 8,
+      page: 9,
       question: "Which is described as harder to implement — interrupts or polling — and why?",
       options: [
         "a) Interrupts, because they require more complex handling logic, while polling is simple to code",
@@ -13165,7 +13177,7 @@
       answer: "a) Interrupts, because they require more complex handling logic, while polling is simple to code"
     },
     {
-      page: 8,
+      page: 9,
       question: "How does CPU usage compare between interrupts and polling per the table?",
       options: [
         "a) Interrupts save CPU resources, while polling wastes cycles on unnecessary checks",
@@ -13176,7 +13188,7 @@
       answer: "a) Interrupts save CPU resources, while polling wastes cycles on unnecessary checks"
     },
     {
-      page: 8,
+      page: 9,
       question: "What is the 'Process Flow' listed for interrupts in the comparison table?",
       options: [
         "a) Pauses current task, saves return address (stack), runs interrupt code, resumes original task",
@@ -13187,7 +13199,7 @@
       answer: "a) Pauses current task, saves return address (stack), runs interrupt code, resumes original task"
     },
     {
-      page: 8,
+      page: 9,
       question: "What hardware support is associated with interrupts versus polling?",
       options: [
         "a) Interrupts rely on built-in timers and dedicated interrupt lines; polling relies on manual implementation",
@@ -13198,7 +13210,7 @@
       answer: "a) Interrupts rely on built-in timers and dedicated interrupt lines; polling relies on manual implementation"
     },
     {
-      page: 8,
+      page: 9,
       question: "According to the table, what is the ideal use case for interrupts?",
       options: [
         "a) Event-driven systems (e.g., I/O devices, timers)",
@@ -13209,9 +13221,9 @@
       answer: "a) Event-driven systems (e.g., I/O devices, timers)"
     },
 
-    // ==================== PAGE 9 - Types of Interrupts: Hardware Interrupts (causes/subtypes) ====================
+    // ==================== PAGE 10 - Types of Interrupts: Hardware Interrupts (causes/subtypes) ====================
     {
-      page: 9,
+      page: 10,
       question: "What generates hardware interrupts?",
       options: [
         "a) Hardware devices",
@@ -13222,7 +13234,7 @@
       answer: "a) Hardware devices"
     },
     {
-      page: 9,
+      page: 10,
       question: "Which of the following is listed as a cause of a hardware interrupt?",
       options: [
         "a) Hardware failure (e.g., power issue, device error)",
@@ -13233,7 +13245,7 @@
       answer: "a) Hardware failure (e.g., power issue, device error)"
     },
     {
-      page: 9,
+      page: 10,
       question: "Which of the following is also listed as a cause of a hardware interrupt?",
       options: [
         "a) I/O operation completion (e.g., keyboard input, disk read/write)",
@@ -13244,7 +13256,7 @@
       answer: "a) I/O operation completion (e.g., keyboard input, disk read/write)"
     },
     {
-      page: 9,
+      page: 10,
       question: "What is an example of an Internal hardware interrupt?",
       options: [
         "a) Divide-by-zero (generated from within the CPU)",
@@ -13255,7 +13267,7 @@
       answer: "a) Divide-by-zero (generated from within the CPU)"
     },
     {
-      page: 9,
+      page: 10,
       question: "What is an example of an External hardware interrupt?",
       options: [
         "a) A mouse click (from peripherals)",
@@ -13266,9 +13278,9 @@
       answer: "a) A mouse click (from peripherals)"
     },
 
-    // ==================== PAGE 10 - Hardware Interrupt definition, how it works, Maskable/NMI ====================
+    // ==================== PAGE 11 - Hardware Interrupt definition, how it works, Maskable/NMI ====================
     {
-      page: 10,
+      page: 11,
       question: "How is a Hardware Interrupt defined?",
       options: [
         "a) An electronic signal sent to the CPU from external hardware (e.g., keyboard, mouse, disk controller)",
@@ -13279,7 +13291,7 @@
       answer: "a) An electronic signal sent to the CPU from external hardware (e.g., keyboard, mouse, disk controller)"
     },
     {
-      page: 10,
+      page: 11,
       question: "What happens when a keyboard key is pressed, according to the example given?",
       options: [
         "a) It triggers an interrupt, and the CPU reads the input",
@@ -13290,7 +13302,7 @@
       answer: "a) It triggers an interrupt, and the CPU reads the input"
     },
     {
-      page: 10,
+      page: 11,
       question: "What happens when the mouse is moved, according to the example given?",
       options: [
         "a) It triggers an interrupt, and the CPU updates the cursor position",
@@ -13301,7 +13313,7 @@
       answer: "a) It triggers an interrupt, and the CPU updates the cursor position"
     },
     {
-      page: 10,
+      page: 11,
       question: "What characterizes a Maskable Interrupt?",
       options: [
         "a) It can be disabled/ignored by the CPU (e.g., via CLI instruction) and is used for low-priority tasks like I/O operations",
@@ -13312,7 +13324,7 @@
       answer: "a) It can be disabled/ignored by the CPU (e.g., via CLI instruction) and is used for low-priority tasks like I/O operations"
     },
     {
-      page: 10,
+      page: 11,
       question: "What characterizes a Non-Maskable Interrupt (NMI)?",
       options: [
         "a) It cannot be disabled/ignored by the CPU and is used for critical events like hardware failure or power loss",
@@ -13323,9 +13335,9 @@
       answer: "a) It cannot be disabled/ignored by the CPU and is used for critical events like hardware failure or power loss"
     },
 
-    // ==================== PAGE 11 - Software Interrupts (causes/subtypes) ====================
+    // ==================== PAGE 12 - Software Interrupts (causes/subtypes) ====================
     {
-      page: 11,
+      page: 12,
       question: "How are software interrupts typically triggered?",
       options: [
         "a) By software, usually in user mode",
@@ -13336,7 +13348,7 @@
       answer: "a) By software, usually in user mode"
     },
     {
-      page: 11,
+      page: 12,
       question: "Which of the following is listed as a cause of a software interrupt?",
       options: [
         "a) Program termination",
@@ -13347,7 +13359,7 @@
       answer: "a) Program termination"
     },
     {
-      page: 11,
+      page: 12,
       question: "Which of the following is also listed as a cause of a software interrupt?",
       options: [
         "a) System service requests (e.g., screen output, printer access)",
@@ -13358,7 +13370,7 @@
       answer: "a) System service requests (e.g., screen output, printer access)"
     },
     {
-      page: 11,
+      page: 12,
       question: "How does the priority of software interrupts compare to hardware interrupts, according to the lecture?",
       options: [
         "a) Software interrupts have higher priority than hardware interrupts",
@@ -13369,7 +13381,7 @@
       answer: "a) Software interrupts have higher priority than hardware interrupts"
     },
     {
-      page: 11,
+      page: 12,
       question: "What is an example of a Normal software interrupt subtype?",
       options: [
         "a) System calls (expected)",
@@ -13380,7 +13392,7 @@
       answer: "a) System calls (expected)"
     },
     {
-      page: 11,
+      page: 12,
       question: "What is an example of an Exception software interrupt subtype?",
       options: [
         "a) An illegal instruction (unexpected error)",
@@ -13391,9 +13403,9 @@
       answer: "a) An illegal instruction (unexpected error)"
     },
 
-    // ==================== PAGE 12 - Software Interrupt: How it works / Key Characteristics ====================
+    // ==================== PAGE 13 - Software Interrupt: How it works / Key Characteristics ====================
     {
-      page: 12,
+      page: 13,
       question: "What happens when a divide-by-zero error occurs, per the example given?",
       options: [
         "a) It aborts the calculation or displays an error",
@@ -13404,7 +13416,7 @@
       answer: "a) It aborts the calculation or displays an error"
     },
     {
-      page: 12,
+      page: 13,
       question: "What happens when a system call occurs, per the example given?",
       options: [
         "a) It switches to kernel mode for OS services",
@@ -13415,7 +13427,7 @@
       answer: "a) It switches to kernel mode for OS services"
     },
     {
-      page: 12,
+      page: 13,
       question: "How is a software interrupt's behavior described in terms of key characteristics?",
       options: [
         "a) It works like a subroutine call (saves state, jumps to handler, and returns)",
@@ -13426,7 +13438,7 @@
       answer: "a) It works like a subroutine call (saves state, jumps to handler, and returns)"
     },
     {
-      page: 12,
+      page: 13,
       question: "What are software interrupts used for, according to their key characteristics?",
       options: [
         "a) Error handling (exceptions) and controlled transitions (e.g., user mode to kernel mode)",
@@ -13437,9 +13449,9 @@
       answer: "a) Error handling (exceptions) and controlled transitions (e.g., user mode to kernel mode)"
     },
 
-    // ==================== PAGE 13 - Classes of Interrupts table ====================
+    // ==================== PAGE 14 - Classes of Interrupts table ====================
     {
-      page: 13,
+      page: 14,
       question: "What generates a Program class interrupt?",
       options: [
         "a) A condition resulting from instruction execution, such as arithmetic overflow, division by zero, illegal instruction, or reference outside a user's allowed memory space",
@@ -13450,7 +13462,7 @@
       answer: "a) A condition resulting from instruction execution, such as arithmetic overflow, division by zero, illegal instruction, or reference outside a user's allowed memory space"
     },
     {
-      page: 13,
+      page: 14,
       question: "What generates a Timer class interrupt, and what does it allow?",
       options: [
         "a) A timer within the processor, allowing the OS to perform certain functions on a regular basis",
@@ -13461,7 +13473,7 @@
       answer: "a) A timer within the processor, allowing the OS to perform certain functions on a regular basis"
     },
     {
-      page: 13,
+      page: 14,
       question: "What generates an I/O class interrupt, and what purposes does it serve?",
       options: [
         "a) An I/O controller, to signal normal completion of an operation, request service from the processor, or signal a variety of error conditions",
@@ -13472,7 +13484,7 @@
       answer: "a) An I/O controller, to signal normal completion of an operation, request service from the processor, or signal a variety of error conditions"
     },
     {
-      page: 13,
+      page: 14,
       question: "What generates a Hardware Failure class interrupt?",
       options: [
         "a) A failure such as power failure or memory parity error",
@@ -13483,9 +13495,9 @@
       answer: "a) A failure such as power failure or memory parity error"
     },
 
-    // ==================== PAGE 14 - Interrupt Triggering Methods ====================
+    // ==================== PAGE 15 - Interrupt Triggering Methods ====================
     {
-      page: 14,
+      page: 15,
       question: "What is Edge Triggering?",
       options: [
         "a) An interrupt generated when a signal transitions from one state to another (e.g., rising or falling edge), useful for detecting changes in state",
@@ -13496,7 +13508,7 @@
       answer: "a) An interrupt generated when a signal transitions from one state to another (e.g., rising or falling edge), useful for detecting changes in state"
     },
     {
-      page: 14,
+      page: 15,
       question: "What is Level Triggering, and what is it beneficial for?",
       options: [
         "a) An interrupt generated when a signal is at a specific level (high or low) for a certain period; beneficial for detecting steady-state conditions",
@@ -13507,7 +13519,7 @@
       answer: "a) An interrupt generated when a signal is at a specific level (high or low) for a certain period; beneficial for detecting steady-state conditions"
     },
     {
-      page: 14,
+      page: 15,
       question: "What is Software Triggering of interrupts?",
       options: [
         "a) Interrupts initiated by software through specific instructions or commands, allowing greater flexibility and control",
@@ -13518,7 +13530,7 @@
       answer: "a) Interrupts initiated by software through specific instructions or commands, allowing greater flexibility and control"
     },
     {
-      page: 14,
+      page: 15,
       question: "What is Priority Triggering, and what does it ensure?",
       options: [
         "a) A method where higher-priority interrupts can preempt lower-priority ones, ensuring critical tasks are handled promptly",
@@ -13529,9 +13541,9 @@
       answer: "a) A method where higher-priority interrupts can preempt lower-priority ones, ensuring critical tasks are handled promptly"
     },
 
-    // ==================== PAGE 15 - Handling Interrupts (Steps 1-4) ====================
+    // ==================== PAGE 16 - Handling Interrupts (Steps 1-4) ====================
     {
-      page: 15,
+      page: 16,
       question: "What is the first thing that happens when an interrupt occurs, per Step 1 of the handling process?",
       options: [
         "a) The processor is executing the i'th instruction, and the program counter points to the next instruction (i+1)th",
@@ -13542,7 +13554,7 @@
       answer: "a) The processor is executing the i'th instruction, and the program counter points to the next instruction (i+1)th"
     },
     {
-      page: 15,
+      page: 16,
       question: "According to Step 2 of handling interrupts, what happens to the program counter value when an interrupt occurs?",
       options: [
         "a) It is stored on the process stack, and the program counter is loaded with the address of the interrupt service routine",
@@ -13553,7 +13565,7 @@
       answer: "a) It is stored on the process stack, and the program counter is loaded with the address of the interrupt service routine"
     },
     {
-      page: 15,
+      page: 16,
       question: "According to Step 3, what happens once the interrupt service routine completes?",
       options: [
         "a) The address on the process stack is popped and placed back into the program counter",
@@ -13564,7 +13576,7 @@
       answer: "a) The address on the process stack is popped and placed back into the program counter"
     },
     {
-      page: 15,
+      page: 16,
       question: "What happens in Step 4, the final step of interrupt handling?",
       options: [
         "a) The processor resumes execution from the (i+1)th instruction",
@@ -13575,9 +13587,9 @@
       answer: "a) The processor resumes execution from the (i+1)th instruction"
     },
 
-    // ==================== PAGE 16 - Interrupt Handler, ISR, IVT ====================
+    // ==================== PAGE 17 - Interrupt Handler, ISR, IVT ====================
     {
-      page: 16,
+      page: 17,
       question: "What role does the Interrupt Handler play?",
       options: [
         "a) It acts as a queue/pool of interrupts waiting for CPU processing and manages prioritization and order of interrupt servicing",
@@ -13588,7 +13600,7 @@
       answer: "a) It acts as a queue/pool of interrupts waiting for CPU processing and manages prioritization and order of interrupt servicing"
     },
     {
-      page: 16,
+      page: 17,
       question: "What is an Interrupt Service Routine (ISR)?",
       options: [
         "a) A dedicated subroutine executed when an interrupt occurs, with each interrupt having a unique ISR and a fixed memory address storing its location",
@@ -13599,7 +13611,7 @@
       answer: "a) A dedicated subroutine executed when an interrupt occurs, with each interrupt having a unique ISR and a fixed memory address storing its location"
     },
     {
-      page: 16,
+      page: 17,
       question: "What is the Interrupt Vector Table (IVT)?",
       options: [
         "a) A predefined memory table containing addresses of all ISRs",
@@ -13610,7 +13622,7 @@
       answer: "a) A predefined memory table containing addresses of all ISRs"
     },
     {
-      page: 16,
+      page: 17,
       question: "What are the functions of the Interrupt Vector Table (IVT)?",
       options: [
         "a) It maps interrupt types to their corresponding ISR and ensures rapid CPU response via a direct jump to the ISR",
@@ -13621,9 +13633,9 @@
       answer: "a) It maps interrupt types to their corresponding ISR and ensures rapid CPU response via a direct jump to the ISR"
     },
 
-    // ==================== PAGE 17 - Types of Interrupt Handlers: FLIH and SLIH ====================
+    // ==================== PAGE 18 - Types of Interrupt Handlers: FLIH and SLIH ====================
     {
-      page: 17,
+      page: 18,
       question: "What is a First Level Interrupt Handler (FLIH)?",
       options: [
         "a) A hard/fast interrupt handler designed for maximum speed and minimal processing to prevent system jitter",
@@ -13634,7 +13646,7 @@
       answer: "a) A hard/fast interrupt handler designed for maximum speed and minimal processing to prevent system jitter"
     },
     {
-      page: 17,
+      page: 18,
       question: "What does the FLIH do when it first responds to a hardware interrupt?",
       options: [
         "a) It performs critical, time-sensitive tasks with interrupts disabled, quickly clears the hardware flag, and schedules a Second-Level Interrupt Handler (SLIH) for longer tasks",
@@ -13645,7 +13657,7 @@
       answer: "a) It performs critical, time-sensitive tasks with interrupts disabled, quickly clears the hardware flag, and schedules a Second-Level Interrupt Handler (SLIH) for longer tasks"
     },
     {
-      page: 17,
+      page: 18,
       question: "What is a Second Level Interrupt Handler (SLIH)?",
       options: [
         "a) A soft/slow interrupt handler that runs asynchronously as a standard thread with lower priority, allowing the CPU to re-enable interrupts and prevent system delays",
@@ -13656,7 +13668,7 @@
       answer: "a) A soft/slow interrupt handler that runs asynchronously as a standard thread with lower priority, allowing the CPU to re-enable interrupts and prevent system delays"
     },
     {
-      page: 17,
+      page: 18,
       question: "What kind of processing does the SLIH handle?",
       options: [
         "a) A deferred mechanism designed to complete lengthy or complex interrupt processing that was deferred by the FLIH",
@@ -13667,9 +13679,9 @@
       answer: "a) A deferred mechanism designed to complete lengthy or complex interrupt processing that was deferred by the FLIH"
     },
 
-    // ==================== PAGE 18 - Interrupt Latency ====================
+    // ==================== PAGE 19 - Interrupt Latency ====================
     {
-      page: 18,
+      page: 19,
       question: "What is interrupt latency?",
       options: [
         "a) The time that elapses between the occurrence of an interrupt and the execution of the first instruction of the ISR that handles it",
@@ -13680,7 +13692,7 @@
       answer: "a) The time that elapses between the occurrence of an interrupt and the execution of the first instruction of the ISR that handles it"
     },
     {
-      page: 18,
+      page: 19,
       question: "What does interrupt latency measure?",
       options: [
         "a) The system's ability to respond to external events in a timely manner",
@@ -13691,7 +13703,7 @@
       answer: "a) The system's ability to respond to external events in a timely manner"
     },
     {
-      page: 18,
+      page: 19,
       question: "How does interrupt latency relate to system responsiveness?",
       options: [
         "a) The shorter the interrupt latency, the more responsive the system will be",
@@ -13702,7 +13714,7 @@
       answer: "a) The shorter the interrupt latency, the more responsive the system will be"
     },
     {
-      page: 18,
+      page: 19,
       question: "In what unit is interrupt latency expressed?",
       options: [
         "a) Core clock cycles",
@@ -13713,9 +13725,9 @@
       answer: "a) Core clock cycles"
     },
 
-    // ==================== PAGE 19 - Benefits of Interrupts ====================
+    // ==================== PAGE 21 - Benefits of Interrupts ====================
     {
-      page: 19,
+      page: 21,
       question: "How do interrupts improve Efficiency according to the benefits listed?",
       options: [
         "a) The CPU can perform other tasks instead of constantly polling for events, increasing overall system efficiency and resource utilization",
@@ -13726,7 +13738,7 @@
       answer: "a) The CPU can perform other tasks instead of constantly polling for events, increasing overall system efficiency and resource utilization"
     },
     {
-      page: 19,
+      page: 21,
       question: "How do interrupts contribute to Responsiveness?",
       options: [
         "a) They enable the system to respond quickly to external events, which is particularly important in real-time applications",
@@ -13737,7 +13749,7 @@
       answer: "a) They enable the system to respond quickly to external events, which is particularly important in real-time applications"
     },
     {
-      page: 19,
+      page: 21,
       question: "How do interrupts support Modularity?",
       options: [
         "a) By allowing different parts of a system to handle specific events independently, simplifying development and maintenance",
@@ -13748,7 +13760,7 @@
       answer: "a) By allowing different parts of a system to handle specific events independently, simplifying development and maintenance"
     },
     {
-      page: 19,
+      page: 21,
       question: "How do interrupts help with Power Saving?",
       options: [
         "a) In low-power systems, they let the CPU enter low-power modes when idle and wake up only when an interrupt occurs, reducing power consumption",
